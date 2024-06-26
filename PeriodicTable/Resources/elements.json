@@ -1,0 +1,7640 @@
+{
+ "generated": "tools/generate_elements.py",
+ "categories": [
+  "alkali-metal",
+  "alkaline-earth-metal",
+  "transition-metal",
+  "post-transition-metal",
+  "metalloid",
+  "reactive-nonmetal",
+  "halogen",
+  "noble-gas",
+  "lanthanide",
+  "actinide",
+  "unknown"
+ ],
+ "elements": [
+  {
+   "number": 1,
+   "symbol": "H",
+   "name": "Hydrogen",
+   "mass": 1.008,
+   "category": "reactive-nonmetal",
+   "group": 1,
+   "period": 1,
+   "fBlock": 0,
+   "configuration": "1s1",
+   "electronegativity": 2.2,
+   "atomicRadius": 53.0,
+   "covalentRadius": 31.0,
+   "meltingPoint": 13.99,
+   "boilingPoint": 20.271,
+   "density": 8.988e-05,
+   "phase": "Gas",
+   "discoveryYear": "1766",
+   "discoverer": "Henry Cavendish",
+   "molecule": "water",
+   "uses": [
+    "Fuel",
+    "Rocket propellant",
+    "Ammonia synthesis"
+   ],
+   "summary": "Lightest element and most abundant in the universe.",
+   "shells": [
+    1
+   ]
+  },
+  {
+   "number": 2,
+   "symbol": "He",
+   "name": "Helium",
+   "mass": 4.0026,
+   "category": "noble-gas",
+   "group": 18,
+   "period": 1,
+   "fBlock": 0,
+   "configuration": "1s2",
+   "electronegativity": null,
+   "atomicRadius": 31.0,
+   "covalentRadius": 28.0,
+   "meltingPoint": 0.95,
+   "boilingPoint": 4.222,
+   "density": 0.0001785,
+   "phase": "Gas",
+   "discoveryYear": "1868",
+   "discoverer": "Janssen and Lockyer",
+   "molecule": "neon",
+   "uses": [
+    "Cryogenics",
+    "Balloons",
+    "MRI cooling"
+   ],
+   "summary": "Second most abundant element, entirely inert.",
+   "shells": [
+    2
+   ]
+  },
+  {
+   "number": 3,
+   "symbol": "Li",
+   "name": "Lithium",
+   "mass": 6.94,
+   "category": "alkali-metal",
+   "group": 1,
+   "period": 2,
+   "fBlock": 0,
+   "configuration": "1s2 2s1",
+   "electronegativity": 0.98,
+   "atomicRadius": 167.0,
+   "covalentRadius": 128.0,
+   "meltingPoint": 453.65,
+   "boilingPoint": 1603.0,
+   "density": 0.534,
+   "phase": "Solid",
+   "discoveryYear": "1817",
+   "discoverer": "Johan August Arfwedson",
+   "molecule": "licl",
+   "uses": [
+    "Battery anodes",
+    "Mood stabiliser",
+    "Aluminium smelting"
+   ],
+   "summary": "Lightest metal, used in rechargeable batteries.",
+   "shells": [
+    2,
+    1
+   ]
+  },
+  {
+   "number": 4,
+   "symbol": "Be",
+   "name": "Beryllium",
+   "mass": 9.0122,
+   "category": "alkaline-earth-metal",
+   "group": 2,
+   "period": 2,
+   "fBlock": 0,
+   "configuration": "1s2 2s2",
+   "electronegativity": 1.57,
+   "atomicRadius": 112.0,
+   "covalentRadius": 96.0,
+   "meltingPoint": 1560.0,
+   "boilingPoint": 2742.0,
+   "density": 1.85,
+   "phase": "Solid",
+   "discoveryYear": "1798",
+   "discoverer": "Louis-Nicolas Vauquelin",
+   "molecule": "becl2",
+   "uses": [
+    "Aerospace alloys",
+    "X-ray windows",
+    "Electron targets"
+   ],
+   "summary": "Toxic light metal used in aerospace alloys.",
+   "shells": [
+    2,
+    2
+   ]
+  },
+  {
+   "number": 5,
+   "symbol": "B",
+   "name": "Boron",
+   "mass": 10.81,
+   "category": "metalloid",
+   "group": 13,
+   "period": 2,
+   "fBlock": 0,
+   "configuration": "1s2 2s2 2p1",
+   "electronegativity": 2.04,
+   "atomicRadius": 87.0,
+   "covalentRadius": 84.0,
+   "meltingPoint": 2349.0,
+   "boilingPoint": 4200.0,
+   "density": 2.34,
+   "phase": "Solid",
+   "discoveryYear": "1808",
+   "discoverer": "Davy, Gay-Lussac and Thenard",
+   "molecule": "bf3",
+   "uses": [
+    "Glass and ceramics",
+    "Neutron shielding",
+    "Semiconductors"
+   ],
+   "summary": "Essential micronutrient for all plant life.",
+   "shells": [
+    2,
+    3
+   ]
+  },
+  {
+   "number": 6,
+   "symbol": "C",
+   "name": "Carbon",
+   "mass": 12.011,
+   "category": "reactive-nonmetal",
+   "group": 14,
+   "period": 2,
+   "fBlock": 0,
+   "configuration": "1s2 2s2 2p2",
+   "electronegativity": 2.55,
+   "atomicRadius": 67.0,
+   "covalentRadius": 76.0,
+   "meltingPoint": 3823.0,
+   "boilingPoint": 4098.0,
+   "density": 2.267,
+   "phase": "Solid",
+   "discoveryYear": "Ancient",
+   "discoverer": "Known to the ancients",
+   "molecule": "methane",
+   "uses": [
+    "Steelmaking",
+    "Diamond",
+    "Photosynthesis",
+    "Organic chemistry"
+   ],
+   "summary": "Backbone of all organic chemistry.",
+   "shells": [
+    2,
+    4
+   ]
+  },
+  {
+   "number": 7,
+   "symbol": "N",
+   "name": "Nitrogen",
+   "mass": 14.007,
+   "category": "reactive-nonmetal",
+   "group": 15,
+   "period": 2,
+   "fBlock": 0,
+   "configuration": "1s2 2s2 2p3",
+   "electronegativity": 3.04,
+   "atomicRadius": 56.0,
+   "covalentRadius": 71.0,
+   "meltingPoint": 63.15,
+   "boilingPoint": 77.355,
+   "density": 0.0012506,
+   "phase": "Gas",
+   "discoveryYear": "1772",
+   "discoverer": "Daniel Rutherford",
+   "molecule": "ammonia",
+   "uses": [
+    "Fertiliser",
+    "Inert gas",
+    "Cryopreservation"
+   ],
+   "summary": "78 percent of Earth's atmosphere by volume.",
+   "shells": [
+    2,
+    5
+   ]
+  },
+  {
+   "number": 8,
+   "symbol": "O",
+   "name": "Oxygen",
+   "mass": 15.999,
+   "category": "reactive-nonmetal",
+   "group": 16,
+   "period": 2,
+   "fBlock": 0,
+   "configuration": "1s2 2s2 2p4",
+   "electronegativity": 3.44,
+   "atomicRadius": 48.0,
+   "covalentRadius": 66.0,
+   "meltingPoint": 54.36,
+   "boilingPoint": 90.188,
+   "density": 0.001429,
+   "phase": "Gas",
+   "discoveryYear": "1771",
+   "discoverer": "Carl Wilhelm Scheele",
+   "molecule": "water",
+   "uses": [
+    "Respiration",
+    "Steelmaking",
+    "Medical oxygen"
+   ],
+   "summary": "Essential to respiration and combustion.",
+   "shells": [
+    2,
+    6
+   ]
+  },
+  {
+   "number": 9,
+   "symbol": "F",
+   "name": "Fluorine",
+   "mass": 18.998,
+   "category": "halogen",
+   "group": 17,
+   "period": 2,
+   "fBlock": 0,
+   "configuration": "1s2 2s2 2p5",
+   "electronegativity": 3.98,
+   "atomicRadius": 42.0,
+   "covalentRadius": 57.0,
+   "meltingPoint": 53.48,
+   "boilingPoint": 85.03,
+   "density": 0.001696,
+   "phase": "Gas",
+   "discoveryYear": "1886",
+   "discoverer": "Henri Moissan",
+   "molecule": "bf3",
+   "uses": [
+    "Toothpaste",
+    "Fluorochemicals",
+    "Reactor uranium enrichment"
+   ],
+   "summary": "Most electronegative and most reactive of all elements.",
+   "shells": [
+    2,
+    7
+   ]
+  },
+  {
+   "number": 10,
+   "symbol": "Ne",
+   "name": "Neon",
+   "mass": 20.18,
+   "category": "noble-gas",
+   "group": 18,
+   "period": 2,
+   "fBlock": 0,
+   "configuration": "1s2 2s2 2p6",
+   "electronegativity": null,
+   "atomicRadius": 38.0,
+   "covalentRadius": 58.0,
+   "meltingPoint": 24.56,
+   "boilingPoint": 27.104,
+   "density": 0.0008999,
+   "phase": "Gas",
+   "discoveryYear": "1898",
+   "discoverer": "Ramsay and Travers",
+   "molecule": "neon",
+   "uses": [
+    "Neon signs",
+    "Cryogenics",
+    "Excited lamps"
+   ],
+   "summary": "Inert gas that glows orange-red in discharge tubes.",
+   "shells": [
+    2,
+    8
+   ]
+  },
+  {
+   "number": 11,
+   "symbol": "Na",
+   "name": "Sodium",
+   "mass": 22.99,
+   "category": "alkali-metal",
+   "group": 1,
+   "period": 3,
+   "fBlock": 0,
+   "configuration": "1s2 2s2 2p6 3s1",
+   "electronegativity": 0.93,
+   "atomicRadius": 190.0,
+   "covalentRadius": 166.0,
+   "meltingPoint": 370.94,
+   "boilingPoint": 1156.09,
+   "density": 0.968,
+   "phase": "Solid",
+   "discoveryYear": "1807",
+   "discoverer": "Humphry Davy",
+   "molecule": "nacl",
+   "uses": [
+    "Table salt",
+    "Sodium vapour lamps",
+    "Heat transfer"
+   ],
+   "summary": "Soft metal that reacts violently with water.",
+   "shells": [
+    2,
+    8,
+    1
+   ]
+  },
+  {
+   "number": 12,
+   "symbol": "Mg",
+   "name": "Magnesium",
+   "mass": 24.305,
+   "category": "alkaline-earth-metal",
+   "group": 2,
+   "period": 3,
+   "fBlock": 0,
+   "configuration": "1s2 2s2 2p6 3s2",
+   "electronegativity": 1.31,
+   "atomicRadius": 145.0,
+   "covalentRadius": 141.0,
+   "meltingPoint": 923.0,
+   "boilingPoint": 1363.0,
+   "density": 1.738,
+   "phase": "Solid",
+   "discoveryYear": "1755",
+   "discoverer": "Joseph Black",
+   "molecule": "mgcl2",
+   "uses": [
+    "Light alloys",
+    "Flares",
+    "Antacids"
+   ],
+   "summary": "Burns with a brilliant white flame.",
+   "shells": [
+    2,
+    8,
+    2
+   ]
+  },
+  {
+   "number": 13,
+   "symbol": "Al",
+   "name": "Aluminium",
+   "mass": 26.982,
+   "category": "post-transition-metal",
+   "group": 13,
+   "period": 3,
+   "fBlock": 0,
+   "configuration": "1s2 2s2 2p6 3s2 3p1",
+   "electronegativity": 1.61,
+   "atomicRadius": 118.0,
+   "covalentRadius": 121.0,
+   "meltingPoint": 933.47,
+   "boilingPoint": 2743.0,
+   "density": 2.7,
+   "phase": "Solid",
+   "discoveryYear": "1825",
+   "discoverer": "Hans Christian Orsted",
+   "molecule": "alcl3",
+   "uses": [
+    "Cans",
+    "Aerospace",
+    "Heat exchangers"
+   ],
+   "summary": "Light, corrosion-resistant and highly recyclable metal.",
+   "shells": [
+    2,
+    8,
+    3
+   ]
+  },
+  {
+   "number": 14,
+   "symbol": "Si",
+   "name": "Silicon",
+   "mass": 28.085,
+   "category": "metalloid",
+   "group": 14,
+   "period": 3,
+   "fBlock": 0,
+   "configuration": "1s2 2s2 2p6 3s2 3p2",
+   "electronegativity": 1.9,
+   "atomicRadius": 111.0,
+   "covalentRadius": 111.0,
+   "meltingPoint": 1687.0,
+   "boilingPoint": 3538.0,
+   "density": 2.3296,
+   "phase": "Solid",
+   "discoveryYear": "1824",
+   "discoverer": "Jons Jacob Berzelius",
+   "molecule": "sio2",
+   "uses": [
+    "Semiconductors",
+    "Glass",
+    "Silicones"
+   ],
+   "summary": "Foundation of the modern electronics industry.",
+   "shells": [
+    2,
+    8,
+    4
+   ]
+  },
+  {
+   "number": 15,
+   "symbol": "P",
+   "name": "Phosphorus",
+   "mass": 30.974,
+   "category": "reactive-nonmetal",
+   "group": 15,
+   "period": 3,
+   "fBlock": 0,
+   "configuration": "1s2 2s2 2p6 3s2 3p3",
+   "electronegativity": 2.19,
+   "atomicRadius": 98.0,
+   "covalentRadius": 107.0,
+   "meltingPoint": 317.3,
+   "boilingPoint": 550.0,
+   "density": 1.823,
+   "phase": "Solid",
+   "discoveryYear": "1669",
+   "discoverer": "Hennig Brand",
+   "molecule": "p4",
+   "uses": [
+    "Fertiliser",
+    "Matches",
+    "Detergents"
+   ],
+   "summary": "Essential for DNA, ATP and life itself.",
+   "shells": [
+    2,
+    8,
+    5
+   ]
+  },
+  {
+   "number": 16,
+   "symbol": "S",
+   "name": "Sulfur",
+   "mass": 32.06,
+   "category": "reactive-nonmetal",
+   "group": 16,
+   "period": 3,
+   "fBlock": 0,
+   "configuration": "1s2 2s2 2p6 3s2 3p4",
+   "electronegativity": 2.58,
+   "atomicRadius": 88.0,
+   "covalentRadius": 105.0,
+   "meltingPoint": 388.36,
+   "boilingPoint": 717.8,
+   "density": 2.07,
+   "phase": "Solid",
+   "discoveryYear": "Ancient",
+   "discoverer": "Known to the ancients",
+   "molecule": "h2so4",
+   "uses": [
+    "Fertiliser",
+    "Sulphuric acid",
+    "Vulcanised rubber"
+   ],
+   "summary": "Forms the yellow crystals of native sulphur.",
+   "shells": [
+    2,
+    8,
+    6
+   ]
+  },
+  {
+   "number": 17,
+   "symbol": "Cl",
+   "name": "Chlorine",
+   "mass": 35.45,
+   "category": "halogen",
+   "group": 17,
+   "period": 3,
+   "fBlock": 0,
+   "configuration": "1s2 2s2 2p6 3s2 3p5",
+   "electronegativity": 3.16,
+   "atomicRadius": 79.0,
+   "covalentRadius": 102.0,
+   "meltingPoint": 171.6,
+   "boilingPoint": 239.11,
+   "density": 0.003214,
+   "phase": "Gas",
+   "discoveryYear": "1774",
+   "discoverer": "Carl Wilhelm Scheele",
+   "molecule": "nacl",
+   "uses": [
+    "Water treatment",
+    "PVC",
+    "Bleach"
+   ],
+   "summary": "Green-yellow gas that disinfects drinking water.",
+   "shells": [
+    2,
+    8,
+    7
+   ]
+  },
+  {
+   "number": 18,
+   "symbol": "Ar",
+   "name": "Argon",
+   "mass": 39.948,
+   "category": "noble-gas",
+   "group": 18,
+   "period": 3,
+   "fBlock": 0,
+   "configuration": "1s2 2s2 2p6 3s2 3p6",
+   "electronegativity": null,
+   "atomicRadius": 71.0,
+   "covalentRadius": 106.0,
+   "meltingPoint": 83.81,
+   "boilingPoint": 87.302,
+   "density": 0.001784,
+   "phase": "Gas",
+   "discoveryYear": "1894",
+   "discoverer": "Lord Rayleigh and Ramsay",
+   "molecule": "argon",
+   "uses": [
+    "Shielding gas",
+    "Light bulbs",
+    "Welding"
+   ],
+   "summary": "Cheapest of the noble gases, most used in industry.",
+   "shells": [
+    2,
+    8,
+    8
+   ]
+  },
+  {
+   "number": 19,
+   "symbol": "K",
+   "name": "Potassium",
+   "mass": 39.098,
+   "category": "alkali-metal",
+   "group": 1,
+   "period": 4,
+   "fBlock": 0,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 4s1",
+   "electronegativity": 0.82,
+   "atomicRadius": 243.0,
+   "covalentRadius": 203.0,
+   "meltingPoint": 336.53,
+   "boilingPoint": 1032.0,
+   "density": 0.862,
+   "phase": "Solid",
+   "discoveryYear": "1807",
+   "discoverer": "Humphry Davy",
+   "molecule": "kcl",
+   "uses": [
+    "Fertiliser",
+    "Soaps",
+    "Batteries"
+   ],
+   "summary": "Soft metal with the lowest density of any metal.",
+   "shells": [
+    2,
+    8,
+    8,
+    1
+   ]
+  },
+  {
+   "number": 20,
+   "symbol": "Ca",
+   "name": "Calcium",
+   "mass": 40.078,
+   "category": "alkaline-earth-metal",
+   "group": 2,
+   "period": 4,
+   "fBlock": 0,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 4s2",
+   "electronegativity": 1.0,
+   "atomicRadius": 194.0,
+   "covalentRadius": 176.0,
+   "meltingPoint": 1115.0,
+   "boilingPoint": 1757.0,
+   "density": 1.55,
+   "phase": "Solid",
+   "discoveryYear": "1808",
+   "discoverer": "Humphry Davy",
+   "molecule": "caco3",
+   "uses": [
+    "Limestone",
+    "Cement",
+    "Plaster"
+   ],
+   "summary": "Structural metal of bones, teeth and limestone.",
+   "shells": [
+    2,
+    8,
+    8,
+    2
+   ]
+  },
+  {
+   "number": 21,
+   "symbol": "Sc",
+   "name": "Scandium",
+   "mass": 44.956,
+   "category": "transition-metal",
+   "group": 3,
+   "period": 4,
+   "fBlock": 0,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d1 4s2",
+   "electronegativity": 1.36,
+   "atomicRadius": 184.0,
+   "covalentRadius": 170.0,
+   "meltingPoint": 1814.0,
+   "boilingPoint": 3109.0,
+   "density": 2.985,
+   "phase": "Solid",
+   "discoveryYear": "1879",
+   "discoverer": "Lars Fredrik Nilson",
+   "molecule": "sccl3",
+   "uses": [
+    "Aluminium alloys",
+    "Metal lamps",
+    "Scandium oxide"
+   ],
+   "summary": "Scandium oxide gives street lamps a pure white light.",
+   "shells": [
+    2,
+    8,
+    9,
+    2
+   ]
+  },
+  {
+   "number": 22,
+   "symbol": "Ti",
+   "name": "Titanium",
+   "mass": 47.867,
+   "category": "transition-metal",
+   "group": 4,
+   "period": 4,
+   "fBlock": 0,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d2 4s2",
+   "electronegativity": 1.54,
+   "atomicRadius": 176.0,
+   "covalentRadius": 160.0,
+   "meltingPoint": 1941.0,
+   "boilingPoint": 3560.0,
+   "density": 4.506,
+   "phase": "Solid",
+   "discoveryYear": "1791",
+   "discoverer": "William Gregor",
+   "molecule": "tio2",
+   "uses": [
+    "Aerospace",
+    "Implants",
+    "Pigment"
+   ],
+   "summary": "Strong, light and biocompatible metal.",
+   "shells": [
+    2,
+    8,
+    10,
+    2
+   ]
+  },
+  {
+   "number": 23,
+   "symbol": "V",
+   "name": "Vanadium",
+   "mass": 50.942,
+   "category": "transition-metal",
+   "group": 5,
+   "period": 4,
+   "fBlock": 0,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d3 4s2",
+   "electronegativity": 1.63,
+   "atomicRadius": 171.0,
+   "covalentRadius": 153.0,
+   "meltingPoint": 2183.0,
+   "boilingPoint": 3680.0,
+   "density": 6.11,
+   "phase": "Solid",
+   "discoveryYear": "1801",
+   "discoverer": "Andres Manuel del Rio",
+   "molecule": "v2o5",
+   "uses": [
+    "Steel alloying",
+    "Vanadium batteries"
+   ],
+   "summary": "Catalyst for converting crude oil into petrol.",
+   "shells": [
+    2,
+    8,
+    11,
+    2
+   ]
+  },
+  {
+   "number": 24,
+   "symbol": "Cr",
+   "name": "Chromium",
+   "mass": 51.996,
+   "category": "transition-metal",
+   "group": 6,
+   "period": 4,
+   "fBlock": 0,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d5 4s1",
+   "electronegativity": 1.66,
+   "atomicRadius": 166.0,
+   "covalentRadius": 139.0,
+   "meltingPoint": 2180.0,
+   "boilingPoint": 2944.0,
+   "density": 7.15,
+   "phase": "Solid",
+   "discoveryYear": "1797",
+   "discoverer": "Louis-Nicolas Vauquelin",
+   "molecule": "cr2o3",
+   "uses": [
+    "Stainless steel",
+    "Chrome plating",
+    "Pigment"
+   ],
+   "summary": "Gives stainless steel its corrosion resistance.",
+   "shells": [
+    2,
+    8,
+    13,
+    1
+   ]
+  },
+  {
+   "number": 25,
+   "symbol": "Mn",
+   "name": "Manganese",
+   "mass": 54.938,
+   "category": "transition-metal",
+   "group": 7,
+   "period": 4,
+   "fBlock": 0,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d5 4s2",
+   "electronegativity": 1.55,
+   "atomicRadius": 161.0,
+   "covalentRadius": 139.0,
+   "meltingPoint": 1519.0,
+   "boilingPoint": 2334.0,
+   "density": 7.21,
+   "phase": "Solid",
+   "discoveryYear": "1774",
+   "discoverer": "Johan Gottlieb Gahn",
+   "molecule": "kmno4",
+   "uses": [
+    "Steel making",
+    "Batteries",
+    "Pigments"
+   ],
+   "summary": "Essible trace element needed for blood clotting.",
+   "shells": [
+    2,
+    8,
+    13,
+    2
+   ]
+  },
+  {
+   "number": 26,
+   "symbol": "Fe",
+   "name": "Iron",
+   "mass": 55.845,
+   "category": "transition-metal",
+   "group": 8,
+   "period": 4,
+   "fBlock": 0,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d6 4s2",
+   "electronegativity": 1.83,
+   "atomicRadius": 156.0,
+   "covalentRadius": 132.0,
+   "meltingPoint": 1811.0,
+   "boilingPoint": 3134.0,
+   "density": 7.874,
+   "phase": "Solid",
+   "discoveryYear": "Ancient",
+   "discoverer": "Known to the ancients",
+   "molecule": "fe3o4",
+   "uses": [
+    "Steel",
+    "Magnets",
+    "Blood haemoglobin"
+   ],
+   "summary": "Most-used metal on Earth, core of our planet.",
+   "shells": [
+    2,
+    8,
+    14,
+    2
+   ]
+  },
+  {
+   "number": 27,
+   "symbol": "Co",
+   "name": "Cobalt",
+   "mass": 58.933,
+   "category": "transition-metal",
+   "group": 9,
+   "period": 4,
+   "fBlock": 0,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d7 4s2",
+   "electronegativity": 1.88,
+   "atomicRadius": 152.0,
+   "covalentRadius": 126.0,
+   "meltingPoint": 1768.0,
+   "boilingPoint": 3200.0,
+   "density": 8.9,
+   "phase": "Solid",
+   "discoveryYear": "1735",
+   "discoverer": "Georg Brandt",
+   "molecule": "cocl2",
+   "uses": [
+    "Battery electrodes",
+    "Catalysts",
+    "Blue pigments"
+   ],
+   "summary": "Source of the deep blue used in ancient glass and pottery.",
+   "shells": [
+    2,
+    8,
+    15,
+    2
+   ]
+  },
+  {
+   "number": 28,
+   "symbol": "Ni",
+   "name": "Nickel",
+   "mass": 58.693,
+   "category": "transition-metal",
+   "group": 10,
+   "period": 4,
+   "fBlock": 0,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d8 4s2",
+   "electronegativity": 1.91,
+   "atomicRadius": 149.0,
+   "covalentRadius": 124.0,
+   "meltingPoint": 1728.0,
+   "boilingPoint": 3003.0,
+   "density": 8.908,
+   "phase": "Solid",
+   "discoveryYear": "1751",
+   "discoverer": "Axel Fredrik Cronstedt",
+   "molecule": "nicl2",
+   "uses": [
+    "Stainless steel",
+    "Batteries",
+    "Electroplating"
+   ],
+   "summary": "Coinage metal and catalyst for hydrogenation.",
+   "shells": [
+    2,
+    8,
+    16,
+    2
+   ]
+  },
+  {
+   "number": 29,
+   "symbol": "Cu",
+   "name": "Copper",
+   "mass": 63.546,
+   "category": "transition-metal",
+   "group": 11,
+   "period": 4,
+   "fBlock": 0,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s1",
+   "electronegativity": 1.9,
+   "atomicRadius": 145.0,
+   "covalentRadius": 132.0,
+   "meltingPoint": 1357.77,
+   "boilingPoint": 2835.0,
+   "density": 8.96,
+   "phase": "Solid",
+   "discoveryYear": "Ancient",
+   "discoverer": "Known to the ancients",
+   "molecule": "cuso4",
+   "uses": [
+    "Electrical wiring",
+    "Plumbing",
+    "Antifouling paint"
+   ],
+   "summary": "Second-most used metal, and an excellent conductor.",
+   "shells": [
+    2,
+    8,
+    18,
+    1
+   ]
+  },
+  {
+   "number": 30,
+   "symbol": "Zn",
+   "name": "Zinc",
+   "mass": 65.38,
+   "category": "transition-metal",
+   "group": 12,
+   "period": 4,
+   "fBlock": 0,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2",
+   "electronegativity": 1.65,
+   "atomicRadius": 142.0,
+   "covalentRadius": 122.0,
+   "meltingPoint": 692.68,
+   "boilingPoint": 1180.0,
+   "density": 7.14,
+   "phase": "Solid",
+   "discoveryYear": "1746",
+   "discoverer": "Andreas Sigismund Marggraf",
+   "molecule": "zncl2",
+   "uses": [
+    "Galvanising",
+    "Brass",
+    "Sunscreen"
+   ],
+   "summary": "Protects iron from rust as a sacrificial metal.",
+   "shells": [
+    2,
+    8,
+    18,
+    2
+   ]
+  },
+  {
+   "number": 31,
+   "symbol": "Ga",
+   "name": "Gallium",
+   "mass": 69.723,
+   "category": "post-transition-metal",
+   "group": 13,
+   "period": 4,
+   "fBlock": 0,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p1",
+   "electronegativity": 1.81,
+   "atomicRadius": 136.0,
+   "covalentRadius": 122.0,
+   "meltingPoint": 302.9146,
+   "boilingPoint": 2673.0,
+   "density": 5.91,
+   "phase": "Solid",
+   "discoveryYear": "1875",
+   "discoverer": "Paul-Emile Lecoq de Boisbaudran",
+   "molecule": "gacl3",
+   "uses": [
+    "Semiconductors",
+    "LEDs",
+    "Thermometers"
+   ],
+   "summary": "Melts in your hand and is used in gallium nitride LEDs.",
+   "shells": [
+    2,
+    8,
+    18,
+    3
+   ]
+  },
+  {
+   "number": 32,
+   "symbol": "Ge",
+   "name": "Germanium",
+   "mass": 72.63,
+   "category": "metalloid",
+   "group": 14,
+   "period": 4,
+   "fBlock": 0,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p2",
+   "electronegativity": 2.01,
+   "atomicRadius": 125.0,
+   "covalentRadius": 120.0,
+   "meltingPoint": 1211.4,
+   "boilingPoint": 3106.0,
+   "density": 5.323,
+   "phase": "Solid",
+   "discoveryYear": "1886",
+   "discoverer": "Clemens Winkler",
+   "molecule": "geo2",
+   "uses": [
+    "Fibre-optic glass",
+    "Semiconductors",
+    "Infrared optics"
+   ],
+   "summary": "Key semiconductor material for infrared optics.",
+   "shells": [
+    2,
+    8,
+    18,
+    4
+   ]
+  },
+  {
+   "number": 33,
+   "symbol": "As",
+   "name": "Arsenic",
+   "mass": 74.922,
+   "category": "metalloid",
+   "group": 15,
+   "period": 4,
+   "fBlock": 0,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p3",
+   "electronegativity": 2.18,
+   "atomicRadius": 114.0,
+   "covalentRadius": 119.0,
+   "meltingPoint": 1090.0,
+   "boilingPoint": 887.0,
+   "density": 5.727,
+   "phase": "Solid",
+   "discoveryYear": "1250",
+   "discoverer": "Albertus Magnus",
+   "molecule": "as2o3",
+   "uses": [
+    "Pesticides",
+    "Semiconductors",
+    "Wood preservative"
+   ],
+   "summary": "Toxic metalloid historically used as a poison and pigment.",
+   "shells": [
+    2,
+    8,
+    18,
+    5
+   ]
+  },
+  {
+   "number": 34,
+   "symbol": "Se",
+   "name": "Selenium",
+   "mass": 78.971,
+   "category": "reactive-nonmetal",
+   "group": 16,
+   "period": 4,
+   "fBlock": 0,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p4",
+   "electronegativity": 2.55,
+   "atomicRadius": 103.0,
+   "covalentRadius": 120.0,
+   "meltingPoint": 494.0,
+   "boilingPoint": 958.0,
+   "density": 4.81,
+   "phase": "Solid",
+   "discoveryYear": "1817",
+   "discoverer": "Jons Jacob Berzelius",
+   "molecule": "seo2",
+   "uses": [
+    "Glass decolourising",
+    "Photocells",
+    "Antidandruff"
+   ],
+   "summary": "Essential trace element; converts light to electricity.",
+   "shells": [
+    2,
+    8,
+    18,
+    6
+   ]
+  },
+  {
+   "number": 35,
+   "symbol": "Br",
+   "name": "Bromine",
+   "mass": 79.904,
+   "category": "halogen",
+   "group": 17,
+   "period": 4,
+   "fBlock": 0,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p5",
+   "electronegativity": 2.96,
+   "atomicRadius": 94.0,
+   "covalentRadius": 120.0,
+   "meltingPoint": 265.8,
+   "boilingPoint": 332.0,
+   "density": 3.1028,
+   "phase": "Liquid",
+   "discoveryYear": "1826",
+   "discoverer": "Antoine Jerome Balard",
+   "molecule": "agbr",
+   "uses": [
+    "Flame retardants",
+    "Photography",
+    "Water treatment"
+   ],
+   "summary": "The only non-metallic element liquid at room temperature.",
+   "shells": [
+    2,
+    8,
+    18,
+    7
+   ]
+  },
+  {
+   "number": 36,
+   "symbol": "Kr",
+   "name": "Krypton",
+   "mass": 83.798,
+   "category": "noble-gas",
+   "group": 18,
+   "period": 4,
+   "fBlock": 0,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6",
+   "electronegativity": null,
+   "atomicRadius": 88.0,
+   "covalentRadius": 116.0,
+   "meltingPoint": 115.79,
+   "boilingPoint": 119.93,
+   "density": 0.003733,
+   "phase": "Gas",
+   "discoveryYear": "1898",
+   "discoverer": "Ramsay and Travers",
+   "molecule": "krypton",
+   "uses": [
+    "High-speed photography",
+    "Insulating windows",
+    "Lighting"
+   ],
+   "summary": "Used in some LED bulbs and high-speed flash lamps.",
+   "shells": [
+    2,
+    8,
+    18,
+    8
+   ]
+  },
+  {
+   "number": 37,
+   "symbol": "Rb",
+   "name": "Rubidium",
+   "mass": 85.468,
+   "category": "alkali-metal",
+   "group": 1,
+   "period": 5,
+   "fBlock": 0,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 5s1",
+   "electronegativity": 0.82,
+   "atomicRadius": 265.0,
+   "covalentRadius": 220.0,
+   "meltingPoint": 312.46,
+   "boilingPoint": 961.0,
+   "density": 1.532,
+   "phase": "Solid",
+   "discoveryYear": "1861",
+   "discoverer": "Bunsen and Kirchhoff",
+   "molecule": "rbcl",
+   "uses": [
+    "Photocells",
+    "Lasers",
+    "Rubidium vapour clocks"
+   ],
+   "summary": "Highly reactive metal used in atomic clocks.",
+   "shells": [
+    2,
+    8,
+    18,
+    8,
+    1
+   ]
+  },
+  {
+   "number": 38,
+   "symbol": "Sr",
+   "name": "Strontium",
+   "mass": 87.62,
+   "category": "alkaline-earth-metal",
+   "group": 2,
+   "period": 5,
+   "fBlock": 0,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 5s2",
+   "electronegativity": 0.95,
+   "atomicRadius": 219.0,
+   "covalentRadius": 195.0,
+   "meltingPoint": 1050.0,
+   "boilingPoint": 1655.0,
+   "density": 2.64,
+   "phase": "Solid",
+   "discoveryYear": "1790",
+   "discoverer": "Adair Crawford",
+   "molecule": "srcl2",
+   "uses": [
+    "Fireworks",
+    "Magnesium alloys",
+    "CRT glass"
+   ],
+   "summary": "Gives fireworks their brilliant crimson colour.",
+   "shells": [
+    2,
+    8,
+    18,
+    8,
+    2
+   ]
+  },
+  {
+   "number": 39,
+   "symbol": "Y",
+   "name": "Yttrium",
+   "mass": 88.906,
+   "category": "transition-metal",
+   "group": 3,
+   "period": 5,
+   "fBlock": 0,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d1 5s2",
+   "electronegativity": 1.22,
+   "atomicRadius": 212.0,
+   "covalentRadius": 190.0,
+   "meltingPoint": 1799.0,
+   "boilingPoint": 3609.0,
+   "density": 4.472,
+   "phase": "Solid",
+   "discoveryYear": "1794",
+   "discoverer": "Johan Gadolin",
+   "molecule": "ycl3",
+   "uses": [
+    "Phosphors",
+    "Yttrium aluminium garnet lasers",
+    "Ceramic"
+   ],
+   "summary": "Yttrium aluminium garnet makes solid-state lasers and white LEDs.",
+   "shells": [
+    2,
+    8,
+    18,
+    9,
+    2
+   ]
+  },
+  {
+   "number": 40,
+   "symbol": "Zr",
+   "name": "Zirconium",
+   "mass": 91.224,
+   "category": "transition-metal",
+   "group": 4,
+   "period": 5,
+   "fBlock": 0,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d2 5s2",
+   "electronegativity": 1.33,
+   "atomicRadius": 206.0,
+   "covalentRadius": 175.0,
+   "meltingPoint": 2128.0,
+   "boilingPoint": 4650.0,
+   "density": 6.52,
+   "phase": "Solid",
+   "discoveryYear": "1789",
+   "discoverer": "Martin Heinrich Klaproth",
+   "molecule": "zro2",
+   "uses": [
+    "Nuclear cladding",
+    "Ceramics",
+    "Precision parts"
+   ],
+   "summary": "Highly resistant to corrosion, ideal for nuclear fuel cladding.",
+   "shells": [
+    2,
+    8,
+    18,
+    10,
+    2
+   ]
+  },
+  {
+   "number": 41,
+   "symbol": "Nb",
+   "name": "Niobium",
+   "mass": 92.906,
+   "category": "transition-metal",
+   "group": 5,
+   "period": 5,
+   "fBlock": 0,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d4 5s1",
+   "electronegativity": 1.6,
+   "atomicRadius": 198.0,
+   "covalentRadius": 164.0,
+   "meltingPoint": 2750.0,
+   "boilingPoint": 5017.0,
+   "density": 8.57,
+   "phase": "Solid",
+   "discoveryYear": "1801",
+   "discoverer": "Charles Hatchett",
+   "molecule": "nbcl5",
+   "uses": [
+    "Superalloys",
+    "Superconductors",
+    "Capacitors"
+   ],
+   "summary": "Colours the golden sheen of niobium superconductors.",
+   "shells": [
+    2,
+    8,
+    18,
+    12,
+    1
+   ]
+  },
+  {
+   "number": 42,
+   "symbol": "Mo",
+   "name": "Molybdenum",
+   "mass": 95.95,
+   "category": "transition-metal",
+   "group": 6,
+   "period": 5,
+   "fBlock": 0,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d5 5s1",
+   "electronegativity": 2.16,
+   "atomicRadius": 190.0,
+   "covalentRadius": 154.0,
+   "meltingPoint": 2896.0,
+   "boilingPoint": 4912.0,
+   "density": 10.28,
+   "phase": "Solid",
+   "discoveryYear": "1778",
+   "discoverer": "Carl Wilhelm Scheele",
+   "molecule": "moo3",
+   "uses": [
+    "Lubricants",
+    "Steel alloys",
+    "Catalysts"
+   ],
+   "summary": "Highest melting point of any pure metal.",
+   "shells": [
+    2,
+    8,
+    18,
+    13,
+    1
+   ]
+  },
+  {
+   "number": 43,
+   "symbol": "Tc",
+   "name": "Technetium",
+   "mass": 98.0,
+   "category": "transition-metal",
+   "group": 7,
+   "period": 5,
+   "fBlock": 0,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d5 5s2",
+   "electronegativity": 1.9,
+   "atomicRadius": 183.0,
+   "covalentRadius": 147.0,
+   "meltingPoint": 2430.0,
+   "boilingPoint": 4538.0,
+   "density": 11.0,
+   "phase": "Solid",
+   "discoveryYear": "1937",
+   "discoverer": "Perrier and Segre",
+   "molecule": "tc2o7",
+   "uses": [
+    "Nuclear medicine",
+    "Coral protection",
+    "Reactor alloy"
+   ],
+   "summary": "First artificially produced element; used in medical imaging.",
+   "shells": [
+    2,
+    8,
+    18,
+    13,
+    2
+   ]
+  },
+  {
+   "number": 44,
+   "symbol": "Ru",
+   "name": "Ruthenium",
+   "mass": 101.07,
+   "category": "transition-metal",
+   "group": 8,
+   "period": 5,
+   "fBlock": 0,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d7 5s1",
+   "electronegativity": 2.2,
+   "atomicRadius": 178.0,
+   "covalentRadius": 146.0,
+   "meltingPoint": 2607.0,
+   "boilingPoint": 4423.0,
+   "density": 12.45,
+   "phase": "Solid",
+   "discoveryYear": "1844",
+   "discoverer": "Karl Ernst Claus",
+   "molecule": "ruo4",
+   "uses": [
+    "Catalysts",
+    "Electronics",
+    "Hardening platinum"
+   ],
+   "summary": "Rare hard metal used in chip fabrication and hardeners.",
+   "shells": [
+    2,
+    8,
+    18,
+    15,
+    1
+   ]
+  },
+  {
+   "number": 45,
+   "symbol": "Rh",
+   "name": "Rhodium",
+   "mass": 102.91,
+   "category": "transition-metal",
+   "group": 9,
+   "period": 5,
+   "fBlock": 0,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d8 5s1",
+   "electronegativity": 2.28,
+   "atomicRadius": 173.0,
+   "covalentRadius": 142.0,
+   "meltingPoint": 2237.0,
+   "boilingPoint": 3968.0,
+   "density": 12.41,
+   "phase": "Solid",
+   "discoveryYear": "1803",
+   "discoverer": "William Hyde Wollaston",
+   "molecule": "rhcl3",
+   "uses": [
+    "Catalytic converters",
+    "Glass coatings",
+    "Reflectors"
+   ],
+   "summary": "Most expensive precious metal; cleans car exhaust.",
+   "shells": [
+    2,
+    8,
+    18,
+    16,
+    1
+   ]
+  },
+  {
+   "number": 46,
+   "symbol": "Pd",
+   "name": "Palladium",
+   "mass": 106.42,
+   "category": "transition-metal",
+   "group": 10,
+   "period": 5,
+   "fBlock": 0,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10",
+   "electronegativity": 2.2,
+   "atomicRadius": 169.0,
+   "covalentRadius": 139.0,
+   "meltingPoint": 1828.05,
+   "boilingPoint": 3236.0,
+   "density": 12.023,
+   "phase": "Solid",
+   "discoveryYear": "1802",
+   "discoverer": "William Hyde Wollaston",
+   "molecule": "pdcl2",
+   "uses": [
+    "Catalysts",
+    "Hydrogen purification",
+    "Electronics"
+   ],
+   "summary": "Absorbs 900 times its volume in hydrogen.",
+   "shells": [
+    2,
+    8,
+    18,
+    18
+   ]
+  },
+  {
+   "number": 47,
+   "symbol": "Ag",
+   "name": "Silver",
+   "mass": 107.87,
+   "category": "transition-metal",
+   "group": 11,
+   "period": 5,
+   "fBlock": 0,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s1",
+   "electronegativity": 1.93,
+   "atomicRadius": 165.0,
+   "covalentRadius": 145.0,
+   "meltingPoint": 1234.93,
+   "boilingPoint": 2435.0,
+   "density": 10.49,
+   "phase": "Solid",
+   "discoveryYear": "Ancient",
+   "discoverer": "Known to the ancients",
+   "molecule": "agcl",
+   "uses": [
+    "Jewellery",
+    "Electronics",
+    "Antibacterial coatings"
+   ],
+   "summary": "Best electrical and thermal conductor of all metals.",
+   "shells": [
+    2,
+    8,
+    18,
+    18,
+    1
+   ]
+  },
+  {
+   "number": 48,
+   "symbol": "Cd",
+   "name": "Cadmium",
+   "mass": 112.41,
+   "category": "transition-metal",
+   "group": 12,
+   "period": 5,
+   "fBlock": 0,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2",
+   "electronegativity": 1.69,
+   "atomicRadius": 161.0,
+   "covalentRadius": 144.0,
+   "meltingPoint": 594.22,
+   "boilingPoint": 1040.0,
+   "density": 8.65,
+   "phase": "Solid",
+   "discoveryYear": "1817",
+   "discoverer": "Stromeyer and Hermann",
+   "molecule": "cds",
+   "uses": [
+    "Pigments",
+    "Batteries",
+    "Reactor control rods"
+   ],
+   "summary": "Toxic metal once widely used in yellow pigments.",
+   "shells": [
+    2,
+    8,
+    18,
+    18,
+    2
+   ]
+  },
+  {
+   "number": 49,
+   "symbol": "In",
+   "name": "Indium",
+   "mass": 114.82,
+   "category": "post-transition-metal",
+   "group": 13,
+   "period": 5,
+   "fBlock": 0,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p1",
+   "electronegativity": 1.78,
+   "atomicRadius": 156.0,
+   "covalentRadius": 142.0,
+   "meltingPoint": 429.7485,
+   "boilingPoint": 2345.0,
+   "density": 7.31,
+   "phase": "Solid",
+   "discoveryYear": "1863",
+   "discoverer": "Reich and Richter",
+   "molecule": "incl3",
+   "uses": [
+    "Indium tin oxide",
+    "Solders",
+    "Infrared detectors"
+   ],
+   "summary": "Very soft metal used in the coating of touchscreen glass.",
+   "shells": [
+    2,
+    8,
+    18,
+    18,
+    3
+   ]
+  },
+  {
+   "number": 50,
+   "symbol": "Sn",
+   "name": "Tin",
+   "mass": 118.71,
+   "category": "post-transition-metal",
+   "group": 14,
+   "period": 5,
+   "fBlock": 0,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p2",
+   "electronegativity": 1.96,
+   "atomicRadius": 145.0,
+   "covalentRadius": 139.0,
+   "meltingPoint": 505.08,
+   "boilingPoint": 2875.0,
+   "density": 7.265,
+   "phase": "Solid",
+   "discoveryYear": "Ancient",
+   "discoverer": "Known to the ancients",
+   "molecule": "sncl4",
+   "uses": [
+    "Solder",
+    "Bronze",
+    "Tin plating"
+   ],
+   "summary": "Alloyed with copper to make the alloy bronze.",
+   "shells": [
+    2,
+    8,
+    18,
+    18,
+    4
+   ]
+  },
+  {
+   "number": 51,
+   "symbol": "Sb",
+   "name": "Antimony",
+   "mass": 121.76,
+   "category": "metalloid",
+   "group": 15,
+   "period": 5,
+   "fBlock": 0,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p3",
+   "electronegativity": 2.05,
+   "atomicRadius": 133.0,
+   "covalentRadius": 139.0,
+   "meltingPoint": 903.78,
+   "boilingPoint": 1907.0,
+   "density": 6.697,
+   "phase": "Solid",
+   "discoveryYear": "Ancient",
+   "discoverer": "Known to the ancients",
+   "molecule": "sb2o3",
+   "uses": [
+    "Flame retardants",
+    "Lead alloys",
+    "Batteries"
+   ],
+   "summary": "A metalloid used in ancient kohl and in flame retardants.",
+   "shells": [
+    2,
+    8,
+    18,
+    18,
+    5
+   ]
+  },
+  {
+   "number": 52,
+   "symbol": "Te",
+   "name": "Tellurium",
+   "mass": 127.6,
+   "category": "metalloid",
+   "group": 16,
+   "period": 5,
+   "fBlock": 0,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p4",
+   "electronegativity": 2.1,
+   "atomicRadius": 123.0,
+   "covalentRadius": 138.0,
+   "meltingPoint": 722.66,
+   "boilingPoint": 1261.0,
+   "density": 6.24,
+   "phase": "Solid",
+   "discoveryYear": "1782",
+   "discoverer": "Franz-Joseph Muller von Reichenstein",
+   "molecule": "teo2",
+   "uses": [
+    "Solar cell films",
+    "Anti-friction alloys",
+    "Thermoelectric"
+   ],
+   "summary": "Used in thin-film photovoltaics and thermoelectric generators.",
+   "shells": [
+    2,
+    8,
+    18,
+    18,
+    6
+   ]
+  },
+  {
+   "number": 53,
+   "symbol": "I",
+   "name": "Iodine",
+   "mass": 126.9,
+   "category": "halogen",
+   "group": 17,
+   "period": 5,
+   "fBlock": 0,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p5",
+   "electronegativity": 2.66,
+   "atomicRadius": 115.0,
+   "covalentRadius": 139.0,
+   "meltingPoint": 386.85,
+   "boilingPoint": 457.4,
+   "density": 4.933,
+   "phase": "Solid",
+   "discoveryYear": "1811",
+   "discoverer": "Bernard Courtois",
+   "molecule": "ki",
+   "uses": [
+    "Thyroid medicine",
+    "Disinfectant",
+    "X-ray contrast"
+   ],
+   "summary": "Sublimes to a violet vapour; essential for the thyroid.",
+   "shells": [
+    2,
+    8,
+    18,
+    18,
+    7
+   ]
+  },
+  {
+   "number": 54,
+   "symbol": "Xe",
+   "name": "Xenon",
+   "mass": 131.29,
+   "category": "noble-gas",
+   "group": 18,
+   "period": 5,
+   "fBlock": 0,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6",
+   "electronegativity": 2.6,
+   "atomicRadius": 108.0,
+   "covalentRadius": 140.0,
+   "meltingPoint": 161.4,
+   "boilingPoint": 165.051,
+   "density": 0.005894,
+   "phase": "Gas",
+   "discoveryYear": "1898",
+   "discoverer": "Ramsay and Travers",
+   "molecule": "xef4",
+   "uses": [
+    "Flash lamps",
+    "Arc lamps",
+    "Ion propulsion"
+   ],
+   "summary": "Used in bright xenon arc lamps for cinema projection.",
+   "shells": [
+    2,
+    8,
+    18,
+    18,
+    8
+   ]
+  },
+  {
+   "number": 55,
+   "symbol": "Cs",
+   "name": "Caesium",
+   "mass": 132.91,
+   "category": "alkali-metal",
+   "group": 1,
+   "period": 6,
+   "fBlock": 0,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 6s1",
+   "electronegativity": 0.79,
+   "atomicRadius": 298.0,
+   "covalentRadius": 244.0,
+   "meltingPoint": 301.59,
+   "boilingPoint": 944.0,
+   "density": 1.93,
+   "phase": "Solid",
+   "discoveryYear": "1860",
+   "discoverer": "Bunsen and Kirchhoff",
+   "molecule": "cscl",
+   "uses": [
+    "Atomic clocks",
+    "Photoelectric cells"
+   ],
+   "summary": "Caesium-133 defines the SI second.",
+   "shells": [
+    2,
+    8,
+    18,
+    18,
+    8,
+    1
+   ]
+  },
+  {
+   "number": 56,
+   "symbol": "Ba",
+   "name": "Barium",
+   "mass": 137.33,
+   "category": "alkaline-earth-metal",
+   "group": 2,
+   "period": 6,
+   "fBlock": 0,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 6s2",
+   "electronegativity": 0.89,
+   "atomicRadius": 253.0,
+   "covalentRadius": 215.0,
+   "meltingPoint": 1000.0,
+   "boilingPoint": 2170.0,
+   "density": 3.51,
+   "phase": "Solid",
+   "discoveryYear": "1808",
+   "discoverer": "Humphry Davy",
+   "molecule": "baso4",
+   "uses": [
+    "Barium meals",
+    "Drilling fluids",
+    "Glass"
+   ],
+   "summary": "Gives a pale green flame and is used in X-ray imaging.",
+   "shells": [
+    2,
+    8,
+    18,
+    18,
+    8,
+    2
+   ]
+  },
+  {
+   "number": 57,
+   "symbol": "La",
+   "name": "Lanthanum",
+   "mass": 138.91,
+   "category": "lanthanide",
+   "group": 3,
+   "period": 6,
+   "fBlock": 1,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 5d1 6s2",
+   "electronegativity": 1.1,
+   "atomicRadius": 226.0,
+   "covalentRadius": 207.0,
+   "meltingPoint": 1193.0,
+   "boilingPoint": 3737.0,
+   "density": 6.162,
+   "phase": "Solid",
+   "discoveryYear": "1839",
+   "discoverer": "Carl Gustaf Mosander",
+   "molecule": "lacl3",
+   "uses": [
+    "Camera lenses",
+    "Batteries",
+    "Catalysts"
+   ],
+   "summary": "Named for the hidden element, the lanthanides' namesake.",
+   "shells": [
+    2,
+    8,
+    18,
+    18,
+    9,
+    2
+   ]
+  },
+  {
+   "number": 58,
+   "symbol": "Ce",
+   "name": "Cerium",
+   "mass": 140.12,
+   "category": "lanthanide",
+   "group": 4,
+   "period": 6,
+   "fBlock": 1,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 4f1 5d1 6s2",
+   "electronegativity": 1.12,
+   "atomicRadius": 210.0,
+   "covalentRadius": 204.0,
+   "meltingPoint": 1068.0,
+   "boilingPoint": 3716.0,
+   "density": 6.77,
+   "phase": "Solid",
+   "discoveryYear": "1803",
+   "discoverer": "Berzelius, Hisinger and Klaproth",
+   "molecule": "ceo2",
+   "uses": [
+    "Catalytic converters",
+    "Glass polishing",
+    "Lighter flints"
+   ],
+   "summary": "Most abundant of the rare earth elements.",
+   "shells": [
+    2,
+    8,
+    18,
+    19,
+    9,
+    2
+   ]
+  },
+  {
+   "number": 59,
+   "symbol": "Pr",
+   "name": "Praseodymium",
+   "mass": 140.91,
+   "category": "lanthanide",
+   "group": 5,
+   "period": 6,
+   "fBlock": 1,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 4f3 6s2",
+   "electronegativity": 1.13,
+   "atomicRadius": 247.0,
+   "covalentRadius": 203.0,
+   "meltingPoint": 1208.0,
+   "boilingPoint": 3793.0,
+   "density": 6.77,
+   "phase": "Solid",
+   "discoveryYear": "1885",
+   "discoverer": "Carl Auer von Welsbach",
+   "molecule": "prcl3",
+   "uses": [
+    "Welding goggles",
+    "Headlight glass",
+    "Magnets"
+   ],
+   "summary": "Gives glass a distinctive yellow-green tint.",
+   "shells": [
+    2,
+    8,
+    18,
+    21,
+    8,
+    2
+   ]
+  },
+  {
+   "number": 60,
+   "symbol": "Nd",
+   "name": "Neodymium",
+   "mass": 144.24,
+   "category": "lanthanide",
+   "group": 6,
+   "period": 6,
+   "fBlock": 1,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 4f4 6s2",
+   "electronegativity": 1.14,
+   "atomicRadius": 206.0,
+   "covalentRadius": 201.0,
+   "meltingPoint": 1297.0,
+   "boilingPoint": 3347.0,
+   "density": 7.01,
+   "phase": "Solid",
+   "discoveryYear": "1885",
+   "discoverer": "Carl Auer von Welsbach",
+   "molecule": "ndcl3",
+   "uses": [
+    "Strong permanent magnets",
+    "Headphones",
+    "Lasers"
+   ],
+   "summary": "Makes the strongest neodymium iron boron magnets.",
+   "shells": [
+    2,
+    8,
+    18,
+    22,
+    8,
+    2
+   ]
+  },
+  {
+   "number": 61,
+   "symbol": "Pm",
+   "name": "Promethium",
+   "mass": 145.0,
+   "category": "lanthanide",
+   "group": 7,
+   "period": 6,
+   "fBlock": 1,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 4f5 6s2",
+   "electronegativity": 1.13,
+   "atomicRadius": 205.0,
+   "covalentRadius": 199.0,
+   "meltingPoint": 1315.0,
+   "boilingPoint": 3273.0,
+   "density": 7.26,
+   "phase": "Solid",
+   "discoveryYear": "1945",
+   "discoverer": "Marinsky, Glendenin and Coryell",
+   "molecule": "pmcl3",
+   "uses": [
+    "Paint and glow-in-the-dark pigments"
+   ],
+   "summary": "Only radioactive lanthanide with no stable isotopes.",
+   "shells": [
+    2,
+    8,
+    18,
+    23,
+    8,
+    2
+   ]
+  },
+  {
+   "number": 62,
+   "symbol": "Sm",
+   "name": "Samarium",
+   "mass": 150.36,
+   "category": "lanthanide",
+   "group": 8,
+   "period": 6,
+   "fBlock": 1,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 4f6 6s2",
+   "electronegativity": 1.17,
+   "atomicRadius": 238.0,
+   "covalentRadius": 198.0,
+   "meltingPoint": 1345.0,
+   "boilingPoint": 2067.0,
+   "density": 7.52,
+   "phase": "Solid",
+   "discoveryYear": "1879",
+   "discoverer": "Paul-Emile Lecoq de Boisbaudran",
+   "molecule": "smcl3",
+   "uses": [
+    "Samarium-cobalt magnets",
+    "Nuclear control rods"
+   ],
+   "summary": "Makes exceptionally strong, heat-resistant magnets.",
+   "shells": [
+    2,
+    8,
+    18,
+    24,
+    8,
+    2
+   ]
+  },
+  {
+   "number": 63,
+   "symbol": "Eu",
+   "name": "Europium",
+   "mass": 151.96,
+   "category": "lanthanide",
+   "group": 9,
+   "period": 6,
+   "fBlock": 1,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 4f7 6s2",
+   "electronegativity": 1.2,
+   "atomicRadius": 231.0,
+   "covalentRadius": 198.0,
+   "meltingPoint": 1099.0,
+   "boilingPoint": 1802.0,
+   "density": 5.264,
+   "phase": "Solid",
+   "discoveryYear": "1901",
+   "discoverer": "Eugene-Anatole Demarcay",
+   "molecule": "eucl3",
+   "uses": [
+    "Euroluminescence",
+    "Euro banknotes",
+    "Lasers"
+   ],
+   "summary": "Gives the red glow in euro banknote anti-counterfeit ink.",
+   "shells": [
+    2,
+    8,
+    18,
+    25,
+    8,
+    2
+   ]
+  },
+  {
+   "number": 64,
+   "symbol": "Gd",
+   "name": "Gadolinium",
+   "mass": 157.25,
+   "category": "lanthanide",
+   "group": 10,
+   "period": 6,
+   "fBlock": 1,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 4f7 5d1 6s2",
+   "electronegativity": 1.2,
+   "atomicRadius": 233.0,
+   "covalentRadius": 196.0,
+   "meltingPoint": 1585.0,
+   "boilingPoint": 3546.0,
+   "density": 7.9,
+   "phase": "Solid",
+   "discoveryYear": "1880",
+   "discoverer": "Jean Charles Galissard de Marignac",
+   "molecule": "gdcl3",
+   "uses": [
+    "MRI contrast agent",
+    "Neutron shielding"
+   ],
+   "summary": "Strongly paramagnetic, used to sharpen MRI images.",
+   "shells": [
+    2,
+    8,
+    18,
+    25,
+    9,
+    2
+   ]
+  },
+  {
+   "number": 65,
+   "symbol": "Tb",
+   "name": "Terbium",
+   "mass": 158.93,
+   "category": "lanthanide",
+   "group": 11,
+   "period": 6,
+   "fBlock": 1,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 4f9 6s2",
+   "electronegativity": 1.1,
+   "atomicRadius": 225.0,
+   "covalentRadius": 194.0,
+   "meltingPoint": 1629.0,
+   "boilingPoint": 3503.0,
+   "density": 8.23,
+   "phase": "Solid",
+   "discoveryYear": "1843",
+   "discoverer": "Carl Gustaf Mosander",
+   "molecule": "tbcl3",
+   "uses": [
+    "Green phosphors",
+    "Solid-state devices",
+    "Magnets"
+   ],
+   "summary": "Used in the green phosphors of fluorescent lighting.",
+   "shells": [
+    2,
+    8,
+    18,
+    27,
+    8,
+    2
+   ]
+  },
+  {
+   "number": 66,
+   "symbol": "Dy",
+   "name": "Dysprosium",
+   "mass": 162.5,
+   "category": "lanthanide",
+   "group": 12,
+   "period": 6,
+   "fBlock": 1,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 4f10 6s2",
+   "electronegativity": 1.22,
+   "atomicRadius": 228.0,
+   "covalentRadius": 192.0,
+   "meltingPoint": 1680.0,
+   "boilingPoint": 2840.0,
+   "density": 8.54,
+   "phase": "Solid",
+   "discoveryYear": "1886",
+   "discoverer": "Paul-Emile Lecoq de Boisbaudran",
+   "molecule": "dycl3",
+   "uses": [
+    "High-strength magnets",
+    "Nuclear reactors"
+   ],
+   "summary": "Dysprosium alloys make electric-vehicle motors.",
+   "shells": [
+    2,
+    8,
+    18,
+    28,
+    8,
+    2
+   ]
+  },
+  {
+   "number": 67,
+   "symbol": "Ho",
+   "name": "Holmium",
+   "mass": 164.93,
+   "category": "lanthanide",
+   "group": 13,
+   "period": 6,
+   "fBlock": 1,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 4f11 6s2",
+   "electronegativity": 1.23,
+   "atomicRadius": 226.0,
+   "covalentRadius": 192.0,
+   "meltingPoint": 1734.0,
+   "boilingPoint": 2993.0,
+   "density": 8.79,
+   "phase": "Solid",
+   "discoveryYear": "1878",
+   "discoverer": "Per Teodor Cleve",
+   "molecule": "hocl3",
+   "uses": [
+    "Laser crystals",
+    "Magnetic flux concentrators"
+   ],
+   "summary": "Has the highest magnetic moment of any element.",
+   "shells": [
+    2,
+    8,
+    18,
+    29,
+    8,
+    2
+   ]
+  },
+  {
+   "number": 68,
+   "symbol": "Er",
+   "name": "Erbium",
+   "mass": 167.26,
+   "category": "lanthanide",
+   "group": 14,
+   "period": 6,
+   "fBlock": 1,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 4f12 6s2",
+   "electronegativity": 1.24,
+   "atomicRadius": 226.0,
+   "covalentRadius": 189.0,
+   "meltingPoint": 1802.0,
+   "boilingPoint": 3141.0,
+   "density": 9.066,
+   "phase": "Solid",
+   "discoveryYear": "1843",
+   "discoverer": "Carl Gustaf Mosander",
+   "molecule": "ercl3",
+   "uses": [
+    "Optical fibre amplifiers",
+    "Glass colouring"
+   ],
+   "summary": "Amplifies light in erbium-doped optical fibres.",
+   "shells": [
+    2,
+    8,
+    18,
+    30,
+    8,
+    2
+   ]
+  },
+  {
+   "number": 69,
+   "symbol": "Tm",
+   "name": "Thulium",
+   "mass": 168.93,
+   "category": "lanthanide",
+   "group": 15,
+   "period": 6,
+   "fBlock": 1,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 4f13 6s2",
+   "electronegativity": 1.25,
+   "atomicRadius": 222.0,
+   "covalentRadius": 190.0,
+   "meltingPoint": 1818.0,
+   "boilingPoint": 2223.0,
+   "density": 9.32,
+   "phase": "Solid",
+   "discoveryYear": "1879",
+   "discoverer": "Per Teodor Cleve",
+   "molecule": "tmcl3",
+   "uses": [
+    "X-ray sources",
+    "Portable power sources"
+   ],
+   "summary": "Rarest of the stable lanthanides.",
+   "shells": [
+    2,
+    8,
+    18,
+    31,
+    8,
+    2
+   ]
+  },
+  {
+   "number": 70,
+   "symbol": "Yb",
+   "name": "Ytterbium",
+   "mass": 173.05,
+   "category": "lanthanide",
+   "group": 16,
+   "period": 6,
+   "fBlock": 1,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 4f14 6s2",
+   "electronegativity": 1.1,
+   "atomicRadius": 222.0,
+   "covalentRadius": 187.0,
+   "meltingPoint": 1097.0,
+   "boilingPoint": 1469.0,
+   "density": 6.9,
+   "phase": "Solid",
+   "discoveryYear": "1878",
+   "discoverer": "Jean Charles Galissard de Marignac",
+   "molecule": "ybcl3",
+   "uses": [
+    "Yb lasers",
+    "Mechanical alloys",
+    "Pressure sensors"
+   ],
+   "summary": "Its name comes from the Swedish village Ytterby.",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    8,
+    2
+   ]
+  },
+  {
+   "number": 71,
+   "symbol": "Lu",
+   "name": "Lutetium",
+   "mass": 174.97,
+   "category": "lanthanide",
+   "group": 17,
+   "period": 6,
+   "fBlock": 1,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 4f15 6s2",
+   "electronegativity": 1.27,
+   "atomicRadius": 217.0,
+   "covalentRadius": 187.0,
+   "meltingPoint": 1925.0,
+   "boilingPoint": 3675.0,
+   "density": 9.841,
+   "phase": "Solid",
+   "discoveryYear": "1907",
+   "discoverer": "Georges Urbain",
+   "molecule": "lucl3",
+   "uses": [
+    "PET scanners",
+    "Catalysts",
+    "Refractory alloys"
+   ],
+   "summary": "Latest and hardest of the lanthanide metals.",
+   "shells": [
+    2,
+    8,
+    18,
+    33,
+    8,
+    2
+   ]
+  },
+  {
+   "number": 72,
+   "symbol": "Hf",
+   "name": "Hafnium",
+   "mass": 178.49,
+   "category": "transition-metal",
+   "group": 4,
+   "period": 6,
+   "fBlock": 0,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 4f14 5d2 6s2",
+   "electronegativity": 1.3,
+   "atomicRadius": 208.0,
+   "covalentRadius": 175.0,
+   "meltingPoint": 2506.0,
+   "boilingPoint": 4876.0,
+   "density": 13.31,
+   "phase": "Solid",
+   "discoveryYear": "1923",
+   "discoverer": "Coster and de Hevesy",
+   "molecule": "hfo2",
+   "uses": [
+    "Plasma tool coatings",
+    "Nuclear control rods"
+   ],
+   "summary": "Looks like zirconium but tolerates much higher temperatures.",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    10,
+    2
+   ]
+  },
+  {
+   "number": 73,
+   "symbol": "Ta",
+   "name": "Tantalum",
+   "mass": 180.95,
+   "category": "transition-metal",
+   "group": 5,
+   "period": 6,
+   "fBlock": 0,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 4f14 5d3 6s2",
+   "electronegativity": 1.5,
+   "atomicRadius": 200.0,
+   "covalentRadius": 170.0,
+   "meltingPoint": 3290.0,
+   "boilingPoint": 5731.0,
+   "density": 16.69,
+   "phase": "Solid",
+   "discoveryYear": "1802",
+   "discoverer": "Anders Gustaf Ekeberg",
+   "molecule": "tacl5",
+   "uses": [
+    "Capacitors",
+    "Surgical implants",
+    "Rocket parts"
+   ],
+   "summary": "Almost immune to body fluids, used in medical implants.",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    11,
+    2
+   ]
+  },
+  {
+   "number": 74,
+   "symbol": "W",
+   "name": "Tungsten",
+   "mass": 183.84,
+   "category": "transition-metal",
+   "group": 6,
+   "period": 6,
+   "fBlock": 0,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 4f14 5d4 6s2",
+   "electronegativity": 2.36,
+   "atomicRadius": 193.0,
+   "covalentRadius": 162.0,
+   "meltingPoint": 3695.0,
+   "boilingPoint": 6203.0,
+   "density": 19.25,
+   "phase": "Solid",
+   "discoveryYear": "1781",
+   "discoverer": "Carl Wilhelm Scheele",
+   "molecule": "woo3",
+   "uses": [
+    "Filament bulbs",
+    "Cutting tools",
+    "Radiation shielding"
+   ],
+   "summary": "Highest melting point of any metal.",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    12,
+    2
+   ]
+  },
+  {
+   "number": 75,
+   "symbol": "Re",
+   "name": "Rhenium",
+   "mass": 186.21,
+   "category": "transition-metal",
+   "group": 7,
+   "period": 6,
+   "fBlock": 0,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 4f14 5d5 6s2",
+   "electronegativity": 1.9,
+   "atomicRadius": 188.0,
+   "covalentRadius": 151.0,
+   "meltingPoint": 3459.0,
+   "boilingPoint": 5869.0,
+   "density": 21.02,
+   "phase": "Solid",
+   "discoveryYear": "1925",
+   "discoverer": "Noddack, Tacke and Berg",
+   "molecule": "re2o7",
+   "uses": [
+    "Jet engine superalloys",
+    "Thermocouples"
+   ],
+   "summary": "One of the rarest elements in Earth's crust.",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    13,
+    2
+   ]
+  },
+  {
+   "number": 76,
+   "symbol": "Os",
+   "name": "Osmium",
+   "mass": 190.23,
+   "category": "transition-metal",
+   "group": 8,
+   "period": 6,
+   "fBlock": 0,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 4f14 5d6 6s2",
+   "electronegativity": 2.2,
+   "atomicRadius": 185.0,
+   "covalentRadius": 144.0,
+   "meltingPoint": 3306.0,
+   "boilingPoint": 5285.0,
+   "density": 22.59,
+   "phase": "Solid",
+   "discoveryYear": "1803",
+   "discoverer": "Smithson Tennant",
+   "molecule": "oso4",
+   "uses": [
+    "Pen nibs",
+    "Catalysts",
+    "Electrical contacts"
+   ],
+   "summary": "Densest naturally occurring element.",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    14,
+    2
+   ]
+  },
+  {
+   "number": 77,
+   "symbol": "Ir",
+   "name": "Iridium",
+   "mass": 192.22,
+   "category": "transition-metal",
+   "group": 9,
+   "period": 6,
+   "fBlock": 0,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 4f14 5d7 6s2",
+   "electronegativity": 2.2,
+   "atomicRadius": 180.0,
+   "covalentRadius": 141.0,
+   "meltingPoint": 2719.0,
+   "boilingPoint": 4403.0,
+   "density": 22.56,
+   "phase": "Solid",
+   "discoveryYear": "1803",
+   "discoverer": "Smithson Tennant",
+   "molecule": "ircl3",
+   "uses": [
+    "Catalysts",
+    "Crucible alloys",
+    "Cancer drugs"
+   ],
+   "summary": "Came from a thin iridium-rich clay layer marking the dinosaurs' extinction.",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    15,
+    2
+   ]
+  },
+  {
+   "number": 78,
+   "symbol": "Pt",
+   "name": "Platinum",
+   "mass": 195.08,
+   "category": "transition-metal",
+   "group": 10,
+   "period": 6,
+   "fBlock": 0,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 4f14 5d9 6s1",
+   "electronegativity": 2.28,
+   "atomicRadius": 177.0,
+   "covalentRadius": 136.0,
+   "meltingPoint": 2041.4,
+   "boilingPoint": 4098.0,
+   "density": 21.45,
+   "phase": "Solid",
+   "discoveryYear": "1735",
+   "discoverer": "Antonio de Ulloa",
+   "molecule": "ptcl4",
+   "uses": [
+    "Catalytic converters",
+    "Cancer drugs",
+    "Labware"
+   ],
+   "summary": "Inert to corrosion, used in chemotherapy drug cisplatin.",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    17,
+    1
+   ]
+  },
+  {
+   "number": 79,
+   "symbol": "Au",
+   "name": "Gold",
+   "mass": 196.97,
+   "category": "transition-metal",
+   "group": 11,
+   "period": 6,
+   "fBlock": 0,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 4f14 5d10 6s1",
+   "electronegativity": 2.54,
+   "atomicRadius": 174.0,
+   "covalentRadius": 136.0,
+   "meltingPoint": 1337.33,
+   "boilingPoint": 3129.0,
+   "density": 19.3,
+   "phase": "Solid",
+   "discoveryYear": "Ancient",
+   "discoverer": "Known to theancients",
+   "molecule": "aucl3",
+   "uses": [
+    "Jewellery",
+    "Electronics",
+    "Money"
+   ],
+   "summary": "The ultimate noble metal; chemically unreactive and lustrous.",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    18,
+    1
+   ]
+  },
+  {
+   "number": 80,
+   "symbol": "Hg",
+   "name": "Mercury",
+   "mass": 200.59,
+   "category": "transition-metal",
+   "group": 12,
+   "period": 6,
+   "fBlock": 0,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 4f14 5d10 6s2",
+   "electronegativity": 2.0,
+   "atomicRadius": 171.0,
+   "covalentRadius": 132.0,
+   "meltingPoint": 234.32,
+   "boilingPoint": 629.88,
+   "density": 13.534,
+   "phase": "Liquid",
+   "discoveryYear": "Ancient",
+   "discoverer": "Known to the ancients",
+   "molecule": "hgcl2",
+   "uses": [
+    "Thermometers",
+    "Fluorescent lamps",
+    "Chemistry"
+   ],
+   "summary": "The only metal liquid at room temperature.",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    18,
+    2
+   ]
+  },
+  {
+   "number": 81,
+   "symbol": "Tl",
+   "name": "Thallium",
+   "mass": 204.38,
+   "category": "post-transition-metal",
+   "group": 13,
+   "period": 6,
+   "fBlock": 0,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 4f14 5d10 6s2 6p1",
+   "electronegativity": 1.62,
+   "atomicRadius": 156.0,
+   "covalentRadius": 145.0,
+   "meltingPoint": 577.0,
+   "boilingPoint": 1746.0,
+   "density": 11.85,
+   "phase": "Solid",
+   "discoveryYear": "1861",
+   "discoverer": "William Crookes",
+   "molecule": "tlcl",
+   "uses": [
+    "Infrared optics",
+    "Rat poison",
+    "Scintillators"
+   ],
+   "summary": "Highly toxic soft metal once used as rat poison.",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    18,
+    3
+   ]
+  },
+  {
+   "number": 82,
+   "symbol": "Pb",
+   "name": "Lead",
+   "mass": 207.2,
+   "category": "post-transition-metal",
+   "group": 14,
+   "period": 6,
+   "fBlock": 0,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 4f14 5d10 6s2 6p2",
+   "electronegativity": 2.33,
+   "atomicRadius": 154.0,
+   "covalentRadius": 146.0,
+   "meltingPoint": 600.61,
+   "boilingPoint": 2022.0,
+   "density": 11.34,
+   "phase": "Solid",
+   "discoveryYear": "Ancient",
+   "discoverer": "Known to the ancients",
+   "molecule": "pbcl2",
+   "uses": [
+    "Batteries",
+    "Radiation shielding",
+    "Solder"
+   ],
+   "summary": "Dense, soft and famously toxic heavy metal.",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    18,
+    4
+   ]
+  },
+  {
+   "number": 83,
+   "symbol": "Bi",
+   "name": "Bismuth",
+   "mass": 208.98,
+   "category": "post-transition-metal",
+   "group": 15,
+   "period": 6,
+   "fBlock": 0,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 4f14 5d10 6s2 6p3",
+   "electronegativity": 2.02,
+   "atomicRadius": 143.0,
+   "covalentRadius": 148.0,
+   "meltingPoint": 544.7,
+   "boilingPoint": 1837.0,
+   "density": 9.78,
+   "phase": "Solid",
+   "discoveryYear": "1753",
+   "discoverer": "Claude Francois Geoffroy",
+   "molecule": "bi2o3",
+   "uses": [
+    "Paint and cosmetics",
+    "Pharmaceuticals",
+    "Low-melting alloys"
+   ],
+   "summary": "Forms beautiful iridescent stair-step crystals.",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    18,
+    5
+   ]
+  },
+  {
+   "number": 84,
+   "symbol": "Po",
+   "name": "Polonium",
+   "mass": 209.0,
+   "category": "post-transition-metal",
+   "group": 16,
+   "period": 6,
+   "fBlock": 0,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 4f14 5d10 6s2 6p4",
+   "electronegativity": 2.0,
+   "atomicRadius": 135.0,
+   "covalentRadius": 140.0,
+   "meltingPoint": 527.0,
+   "boilingPoint": 1235.0,
+   "density": 9.196,
+   "phase": "Solid",
+   "discoveryYear": "1898",
+   "discoverer": "Marie and Pierre Curie",
+   "molecule": "pocl2",
+   "uses": [
+    "Static eliminators",
+    "Nuclear research"
+   ],
+   "summary": "Discovered by the Curies and named after Poland.",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    18,
+    6
+   ]
+  },
+  {
+   "number": 85,
+   "symbol": "At",
+   "name": "Astatine",
+   "mass": 210.0,
+   "category": "halogen",
+   "group": 17,
+   "period": 6,
+   "fBlock": 0,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 4f14 5d10 6s2 6p5",
+   "electronegativity": 2.2,
+   "atomicRadius": 127.0,
+   "covalentRadius": 150.0,
+   "meltingPoint": 575.0,
+   "boilingPoint": 610.0,
+   "density": 7.0,
+   "phase": "Solid",
+   "discoveryYear": "1940",
+   "discoverer": "Corson, MacKenzie and Segre",
+   "molecule": "atcl",
+   "uses": [
+    "Nuclear research",
+    "Cancer therapy"
+   ],
+   "summary": "Rarest naturally occurring element; about 25 grams on Earth.",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    18,
+    7
+   ]
+  },
+  {
+   "number": 86,
+   "symbol": "Rn",
+   "name": "Radon",
+   "mass": 222.0,
+   "category": "noble-gas",
+   "group": 18,
+   "period": 6,
+   "fBlock": 0,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 4f14 5d10 6s2 6p6",
+   "electronegativity": null,
+   "atomicRadius": 120.0,
+   "covalentRadius": 150.0,
+   "meltingPoint": 202.0,
+   "boilingPoint": 211.5,
+   "density": 0.00973,
+   "phase": "Gas",
+   "discoveryYear": "1900",
+   "discoverer": "Friedrich Ernst Dorn",
+   "molecule": "radon",
+   "uses": [
+    "Radon therapy",
+    "Earthquake prediction"
+   ],
+   "summary": "Colourless radioactive gas seeping from granite.",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    18,
+    8
+   ]
+  },
+  {
+   "number": 87,
+   "symbol": "Fr",
+   "name": "Francium",
+   "mass": 223.0,
+   "category": "alkali-metal",
+   "group": 1,
+   "period": 7,
+   "fBlock": 0,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 4f14 5d10 6s2 6p6 7s1",
+   "electronegativity": 0.7,
+   "atomicRadius": 260.0,
+   "covalentRadius": 260.0,
+   "meltingPoint": 300.0,
+   "boilingPoint": 950.0,
+   "density": 1.87,
+   "phase": "Solid",
+   "discoveryYear": "1939",
+   "discoverer": "Marguerite Perey",
+   "molecule": "frcl",
+   "uses": [
+    "Nuclear research"
+   ],
+   "summary": "Only about 30 grams exist in the Earth's crust at any time.",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    18,
+    8,
+    1
+   ]
+  },
+  {
+   "number": 88,
+   "symbol": "Ra",
+   "name": "Radium",
+   "mass": 226.0,
+   "category": "alkaline-earth-metal",
+   "group": 2,
+   "period": 7,
+   "fBlock": 0,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 4f14 5d10 6s2 6p6 7s2",
+   "electronegativity": 0.9,
+   "atomicRadius": 221.0,
+   "covalentRadius": 215.0,
+   "meltingPoint": 973.0,
+   "boilingPoint": 2010.0,
+   "density": 5.5,
+   "phase": "Solid",
+   "discoveryYear": "1898",
+   "discoverer": "Marie and Pierre Curie",
+   "molecule": "racl2",
+   "uses": [
+    "Historical radiotherapy",
+    "Industrial radiography"
+   ],
+   "summary": "Discovered by the Curies and named for its intense glow.",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    18,
+    8,
+    2
+   ]
+  },
+  {
+   "number": 89,
+   "symbol": "Ac",
+   "name": "Actinium",
+   "mass": 227.0,
+   "category": "actinide",
+   "group": 3,
+   "period": 7,
+   "fBlock": 1,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 4f14 5d10 6s2 6p6 6d1 7s2",
+   "electronegativity": 1.1,
+   "atomicRadius": 215.0,
+   "covalentRadius": 195.0,
+   "meltingPoint": 1323.0,
+   "boilingPoint": 3471.0,
+   "density": 10.07,
+   "phase": "Solid",
+   "discoveryYear": "1899",
+   "discoverer": "Andre-Louis Debierne",
+   "molecule": "accl3",
+   "uses": [
+    "Nuclear research",
+    "Cancer therapy"
+   ],
+   "summary": "Glows pale blue in the dark; namesake of the actinides.",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    18,
+    9,
+    2
+   ]
+  },
+  {
+   "number": 90,
+   "symbol": "Th",
+   "name": "Thorium",
+   "mass": 232.04,
+   "category": "actinide",
+   "group": 4,
+   "period": 7,
+   "fBlock": 1,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 4f14 5d10 6s2 6p6 6d2 7s2",
+   "electronegativity": 1.3,
+   "atomicRadius": 206.0,
+   "covalentRadius": 180.0,
+   "meltingPoint": 2115.0,
+   "boilingPoint": 5061.0,
+   "density": 11.7,
+   "phase": "Solid",
+   "discoveryYear": "1829",
+   "discoverer": "Jons Jacob Berzelius",
+   "molecule": "tho2",
+   "uses": [
+    "Nuclear fuel",
+    "Welding electrodes",
+    "Incandescent mantles"
+   ],
+   "summary": "Four times as abundant as uranium and a possible fuel of the future.",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    18,
+    10,
+    2
+   ]
+  },
+  {
+   "number": 91,
+   "symbol": "Pa",
+   "name": "Protactinium",
+   "mass": 231.04,
+   "category": "actinide",
+   "group": 5,
+   "period": 7,
+   "fBlock": 1,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 4f14 5d10 6s2 6p6 5f2 6d1 7s2",
+   "electronegativity": 1.5,
+   "atomicRadius": 200.0,
+   "covalentRadius": 180.0,
+   "meltingPoint": 1841.0,
+   "boilingPoint": 4300.0,
+   "density": 15.37,
+   "phase": "Solid",
+   "discoveryYear": "1913",
+   "discoverer": "Fajans and Gohring",
+   "molecule": "pa2o5",
+   "uses": [
+    "Nuclear research",
+    "Weighing salts"
+   ],
+   "summary": "Rarest naturally occurring actinide.",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    20,
+    9,
+    2
+   ]
+  },
+  {
+   "number": 92,
+   "symbol": "U",
+   "name": "Uranium",
+   "mass": 238.03,
+   "category": "actinide",
+   "group": 6,
+   "period": 7,
+   "fBlock": 1,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 4f14 5d10 6s2 6p6 5f3 6d1 7s2",
+   "electronegativity": 1.38,
+   "atomicRadius": 196.0,
+   "covalentRadius": 175.0,
+   "meltingPoint": 1405.3,
+   "boilingPoint": 4404.0,
+   "density": 19.1,
+   "phase": "Solid",
+   "discoveryYear": "1789",
+   "discoverer": "Martin Heinrich Klaproth",
+   "molecule": "uo2",
+   "uses": [
+    "Nuclear fuel",
+    "Armour plating",
+    "Geological dating"
+   ],
+   "summary": "Fissile U-235 fuels reactors and nuclear weapons.",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    21,
+    9,
+    2
+   ]
+  },
+  {
+   "number": 93,
+   "symbol": "Np",
+   "name": "Neptunium",
+   "mass": 237.0,
+   "category": "actinide",
+   "group": 7,
+   "period": 7,
+   "fBlock": 1,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 4f14 5d10 6s2 6p6 5f4 6d1 7s2",
+   "electronegativity": 1.36,
+   "atomicRadius": 190.0,
+   "covalentRadius": 175.0,
+   "meltingPoint": 917.0,
+   "boilingPoint": 4273.0,
+   "density": 20.45,
+   "phase": "Solid",
+   "discoveryYear": "1940",
+   "discoverer": "McMillan and Abelson",
+   "molecule": "npo2",
+   "uses": [
+    "Nuclear reactors",
+    "Research",
+    "Neutron detectors"
+   ],
+   "summary": "First transuranic element made; named for the planet after Uranus.",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    22,
+    9,
+    2
+   ]
+  },
+  {
+   "number": 94,
+   "symbol": "Pu",
+   "name": "Plutonium",
+   "mass": 244.0,
+   "category": "actinide",
+   "group": 8,
+   "period": 7,
+   "fBlock": 1,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 4f14 5d10 6s2 6p6 5f6 7s2",
+   "electronegativity": 1.28,
+   "atomicRadius": 187.0,
+   "covalentRadius": 175.0,
+   "meltingPoint": 912.5,
+   "boilingPoint": 3505.0,
+   "density": 19.816,
+   "phase": "Solid",
+   "discoveryYear": "1940",
+   "discoverer": "Seaborg, McMillan, Kennedy and Wahl",
+   "molecule": "puo2",
+   "uses": [
+    "Nuclear fuel",
+    "Radioisotope batteries"
+   ],
+   "summary": "Used in Voyager and Curiosity radioisotope thermoelectric generators.",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    24,
+    8,
+    2
+   ]
+  },
+  {
+   "number": 95,
+   "symbol": "Am",
+   "name": "Americium",
+   "mass": 243.0,
+   "category": "actinide",
+   "group": 9,
+   "period": 7,
+   "fBlock": 1,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 4f14 5d10 6s2 6p6 5f7 7s2",
+   "electronegativity": 1.13,
+   "atomicRadius": 180.0,
+   "covalentRadius": 175.0,
+   "meltingPoint": 1449.0,
+   "boilingPoint": 2880.0,
+   "density": 13.69,
+   "phase": "Solid",
+   "discoveryYear": "1944",
+   "discoverer": "Seaborg, James, Morgan and Ghiorso",
+   "molecule": "amcl3",
+   "uses": [
+    "Smoke detectors",
+    "Moisture gauges"
+   ],
+   "summary": "The element in household smoke detectors.",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    25,
+    8,
+    2
+   ]
+  },
+  {
+   "number": 96,
+   "symbol": "Cm",
+   "name": "Curium",
+   "mass": 247.0,
+   "category": "actinide",
+   "group": 10,
+   "period": 7,
+   "fBlock": 1,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 4f14 5d10 6s2 6p6 5f7 6d1 7s2",
+   "electronegativity": 1.28,
+   "atomicRadius": 169.0,
+   "covalentRadius": 176.0,
+   "meltingPoint": 1613.0,
+   "boilingPoint": 3383.0,
+   "density": 13.51,
+   "phase": "Solid",
+   "discoveryYear": "1944",
+   "discoverer": "Seaborg, James and Ghiorso",
+   "molecule": "cmcl3",
+   "uses": [
+    "Alpha particle sources",
+    "Cancer research"
+   ],
+   "summary": "Named for Marie and Pierre Curie.",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    25,
+    9,
+    2
+   ]
+  },
+  {
+   "number": 97,
+   "symbol": "Bk",
+   "name": "Berkelium",
+   "mass": 247.0,
+   "category": "actinide",
+   "group": 11,
+   "period": 7,
+   "fBlock": 1,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 4f14 5d10 6s2 6p6 5f9 7s2",
+   "electronegativity": 1.3,
+   "atomicRadius": 168.0,
+   "covalentRadius": 168.0,
+   "meltingPoint": 1259.0,
+   "boilingPoint": 2900.0,
+   "density": 14.78,
+   "phase": "Solid",
+   "discoveryYear": "1949",
+   "discoverer": "Thompson, Ghiorso and Seaborg",
+   "molecule": "bkcl3",
+   "uses": [
+    "Nuclear research",
+    "Neutron sources"
+   ],
+   "summary": "Produced in milligram quantities in Oak Ridge reactors.",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    27,
+    8,
+    2
+   ]
+  },
+  {
+   "number": 98,
+   "symbol": "Cf",
+   "name": "Californium",
+   "mass": 251.0,
+   "category": "actinide",
+   "group": 12,
+   "period": 7,
+   "fBlock": 1,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 4f14 5d10 6s2 6p6 5f10 7s2",
+   "electronegativity": 1.3,
+   "atomicRadius": 168.0,
+   "covalentRadius": 168.0,
+   "meltingPoint": 1173.0,
+   "boilingPoint": 1743.0,
+   "density": 15.1,
+   "phase": "Solid",
+   "discoveryYear": "1950",
+   "discoverer": "Thompson, Ghiorso and Seaborg",
+   "molecule": "cfcl3",
+   "uses": [
+    "Neutron sources",
+    "Oil well logging",
+    "Cancer treatment"
+   ],
+   "summary": "Produces neutrons used to start up reactors and find gold.",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    28,
+    8,
+    2
+   ]
+  },
+  {
+   "number": 99,
+   "symbol": "Es",
+   "name": "Einsteinium",
+   "mass": 252.0,
+   "category": "actinide",
+   "group": 13,
+   "period": 7,
+   "fBlock": 1,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 4f14 5d10 6s2 6p6 5f11 7s2",
+   "electronegativity": 1.3,
+   "atomicRadius": 165.0,
+   "covalentRadius": 165.0,
+   "meltingPoint": 1133.0,
+   "boilingPoint": 1269.0,
+   "density": 8.84,
+   "phase": "Solid",
+   "discoveryYear": "1952",
+   "discoverer": "Crane and colleagues",
+   "molecule": "escl3",
+   "uses": [
+    "Nuclear research",
+    "Scientific studies"
+   ],
+   "summary": "Discovered in the debris of the first hydrogen bomb test.",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    29,
+    8,
+    2
+   ]
+  },
+  {
+   "number": 100,
+   "symbol": "Fm",
+   "name": "Fermium",
+   "mass": 257.0,
+   "category": "actinide",
+   "group": 14,
+   "period": 7,
+   "fBlock": 1,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 4f14 5d10 6s2 6p6 5f12 7s2",
+   "electronegativity": null,
+   "atomicRadius": 167.0,
+   "covalentRadius": 167.0,
+   "meltingPoint": 1800.0,
+   "boilingPoint": null,
+   "density": null,
+   "phase": "Solid",
+   "discoveryYear": "1952",
+   "discoverer": "Ghiorso and colleagues",
+   "molecule": "fmcl3",
+   "uses": [
+    "Nuclear research"
+   ],
+   "summary": "The heaviest element that can be formed by neutron bombardment.",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    30,
+    8,
+    2
+   ]
+  },
+  {
+   "number": 101,
+   "symbol": "Md",
+   "name": "Mendelevium",
+   "mass": 258.0,
+   "category": "actinide",
+   "group": 15,
+   "period": 7,
+   "fBlock": 1,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 4f14 5d10 6s2 6p6 5f13 7s2",
+   "electronegativity": null,
+   "atomicRadius": 173.0,
+   "covalentRadius": 173.0,
+   "meltingPoint": 1100.0,
+   "boilingPoint": null,
+   "density": null,
+   "phase": "Solid",
+   "discoveryYear": "1955",
+   "discoverer": "Ghiorso, Harvey, Choppin, Thompson and Seaborg",
+   "molecule": "mdcl3",
+   "uses": [
+    "Nuclear research"
+   ],
+   "summary": "Named for Dmitri Mendeleev, father of the periodic table.",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    31,
+    8,
+    2
+   ]
+  },
+  {
+   "number": 102,
+   "symbol": "No",
+   "name": "Nobelium",
+   "mass": 259.0,
+   "category": "actinide",
+   "group": 16,
+   "period": 7,
+   "fBlock": 1,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 4f14 5d10 6s2 6p6 5f14 7s2",
+   "electronegativity": null,
+   "atomicRadius": 174.0,
+   "covalentRadius": 174.0,
+   "meltingPoint": 1100.0,
+   "boilingPoint": null,
+   "density": null,
+   "phase": "Solid",
+   "discoveryYear": "1966",
+   "discoverer": "Dubna and colleagues",
+   "molecule": "nocl3",
+   "uses": [
+    "Nuclear research"
+   ],
+   "summary": "Named after Alfred Nobel, founder of the Nobel prizes.",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    32,
+    8,
+    2
+   ]
+  },
+  {
+   "number": 103,
+   "symbol": "Lr",
+   "name": "Lawrencium",
+   "mass": 266.0,
+   "category": "actinide",
+   "group": 17,
+   "period": 7,
+   "fBlock": 1,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 4f14 5d10 6s2 6p6 5f14 7s2 7d1",
+   "electronegativity": 1.1,
+   "atomicRadius": 176.0,
+   "covalentRadius": 176.0,
+   "meltingPoint": 1900.0,
+   "boilingPoint": null,
+   "density": null,
+   "phase": "Solid",
+   "discoveryYear": "1961",
+   "discoverer": "Ghiorso and colleagues",
+   "molecule": "lrcl3",
+   "uses": [
+    "Nuclear research"
+   ],
+   "summary": "The last actinide and the first to be found at a cyclotron.",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    32,
+    8,
+    3
+   ]
+  },
+  {
+   "number": 104,
+   "symbol": "Rf",
+   "name": "Rutherfordium",
+   "mass": 267.0,
+   "category": "transition-metal",
+   "group": 4,
+   "period": 7,
+   "fBlock": 0,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 4f14 5d10 6s2 6p6 5f14 6d2 7s2",
+   "electronegativity": null,
+   "atomicRadius": null,
+   "covalentRadius": 157.0,
+   "meltingPoint": null,
+   "boilingPoint": null,
+   "density": null,
+   "phase": "Solid",
+   "discoveryYear": "1964",
+   "discoverer": "Joint Institute for Nuclear Research",
+   "molecule": "rfcl4",
+   "uses": [
+    "Nuclear research",
+    "Superheavy chemistry"
+   ],
+   "summary": "Named after Ernest Rutherford, discoverer of the nucleus.",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    32,
+    10,
+    2
+   ]
+  },
+  {
+   "number": 105,
+   "symbol": "Db",
+   "name": "Dubnium",
+   "mass": 268.0,
+   "category": "transition-metal",
+   "group": 5,
+   "period": 7,
+   "fBlock": 0,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 4f14 5d10 6s2 6p6 5f14 6d3 7s2",
+   "electronegativity": null,
+   "atomicRadius": null,
+   "covalentRadius": 149.0,
+   "meltingPoint": null,
+   "boilingPoint": null,
+   "density": null,
+   "phase": "Solid",
+   "discoveryYear": "1967",
+   "discoverer": "Lawrence Berkeley Laboratory",
+   "molecule": "dbcl5",
+   "uses": [
+    "Nuclear research",
+    "Superheavy chemistry"
+   ],
+   "summary": "Named after Dubna, Russia, where it was created.",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    32,
+    11,
+    2
+   ]
+  },
+  {
+   "number": 106,
+   "symbol": "Sg",
+   "name": "Seaborgium",
+   "mass": 269.0,
+   "category": "transition-metal",
+   "group": 6,
+   "period": 7,
+   "fBlock": 0,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 4f14 5d10 6s2 6p6 5f14 6d4 7s2",
+   "electronegativity": null,
+   "atomicRadius": null,
+   "covalentRadius": 143.0,
+   "meltingPoint": null,
+   "boilingPoint": null,
+   "density": null,
+   "phase": "Solid",
+   "discoveryYear": "1974",
+   "discoverer": "Lawrence Berkeley Laboratory",
+   "molecule": "sgf6",
+   "uses": [
+    "Nuclear research",
+    "Superheavy chemistry"
+   ],
+   "summary": "The first element named after a living person.",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    32,
+    12,
+    2
+   ]
+  },
+  {
+   "number": 107,
+   "symbol": "Bh",
+   "name": "Bohrium",
+   "mass": 270.0,
+   "category": "transition-metal",
+   "group": 7,
+   "period": 7,
+   "fBlock": 0,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 4f14 5d10 6s2 6p6 5f14 6d5 7s2",
+   "electronegativity": null,
+   "atomicRadius": null,
+   "covalentRadius": 141.0,
+   "meltingPoint": null,
+   "boilingPoint": null,
+   "density": null,
+   "phase": "Solid",
+   "discoveryYear": "1981",
+   "discoverer": "GSI Helmholtz Centre",
+   "molecule": "bhcl4",
+   "uses": [
+    "Nuclear research",
+    "Superheavy chemistry"
+   ],
+   "summary": "Named after Niels Bohr.",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    32,
+    13,
+    2
+   ]
+  },
+  {
+   "number": 108,
+   "symbol": "Hs",
+   "name": "Hassium",
+   "mass": 269.0,
+   "category": "transition-metal",
+   "group": 8,
+   "period": 7,
+   "fBlock": 0,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 4f14 5d10 6s2 6p6 5f14 6d6 7s2",
+   "electronegativity": null,
+   "atomicRadius": null,
+   "covalentRadius": 134.0,
+   "meltingPoint": null,
+   "boilingPoint": null,
+   "density": null,
+   "phase": "Solid",
+   "discoveryYear": "1984",
+   "discoverer": "GSI Helmholtz Centre",
+   "molecule": "hscl4",
+   "uses": [
+    "Nuclear research",
+    "Superheavy chemistry"
+   ],
+   "summary": "Named after the German state of Hesse.",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    32,
+    14,
+    2
+   ]
+  },
+  {
+   "number": 109,
+   "symbol": "Mt",
+   "name": "Meitnerium",
+   "mass": 278.0,
+   "category": "unknown",
+   "group": 9,
+   "period": 7,
+   "fBlock": 0,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 4f14 5d10 6s2 6p6 5f14 6d7 7s2",
+   "electronegativity": null,
+   "atomicRadius": null,
+   "covalentRadius": 129.0,
+   "meltingPoint": null,
+   "boilingPoint": null,
+   "density": null,
+   "phase": "Solid",
+   "discoveryYear": "1982",
+   "discoverer": "GSI Helmholtz Centre",
+   "molecule": "mtcl4",
+   "uses": [
+    "Nuclear research",
+    "Superheavy chemistry"
+   ],
+   "summary": "Named after Lise Meitner, pioneer of nuclear fission.",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    32,
+    15,
+    2
+   ]
+  },
+  {
+   "number": 110,
+   "symbol": "Ds",
+   "name": "Darmstadtium",
+   "mass": 281.0,
+   "category": "unknown",
+   "group": 10,
+   "period": 7,
+   "fBlock": 0,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 4f14 5d10 6s2 6p6 5f14 6d9 7s1",
+   "electronegativity": null,
+   "atomicRadius": null,
+   "covalentRadius": 128.0,
+   "meltingPoint": null,
+   "boilingPoint": null,
+   "density": null,
+   "phase": "Solid",
+   "discoveryYear": "1994",
+   "discoverer": "GSI Helmholtz Centre",
+   "molecule": "dscl4",
+   "uses": [
+    "Nuclear research",
+    "Superheavy chemistry"
+   ],
+   "summary": "Named after Darmstadt, the German research centre.",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    32,
+    17,
+    1
+   ]
+  },
+  {
+   "number": 111,
+   "symbol": "Rg",
+   "name": "Roentgenium",
+   "mass": 282.0,
+   "category": "unknown",
+   "group": 11,
+   "period": 7,
+   "fBlock": 0,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 4f14 5d10 6s2 6p6 5f14 6d10 7s1",
+   "electronegativity": null,
+   "atomicRadius": null,
+   "covalentRadius": 121.0,
+   "meltingPoint": null,
+   "boilingPoint": null,
+   "density": null,
+   "phase": "Solid",
+   "discoveryYear": "1994",
+   "discoverer": "GSI Helmholtz Centre",
+   "molecule": "rgcl4",
+   "uses": [
+    "Nuclear research",
+    "Superheavy chemistry"
+   ],
+   "summary": "Named after Wilhelm Rontgen, pioneer of X-rays.",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    32,
+    18,
+    1
+   ]
+  },
+  {
+   "number": 112,
+   "symbol": "Cn",
+   "name": "Copernicium",
+   "mass": 285.0,
+   "category": "unknown",
+   "group": 12,
+   "period": 7,
+   "fBlock": 0,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 4f14 5d10 6s2 6p6 5f14 6d10 7s2",
+   "electronegativity": null,
+   "atomicRadius": null,
+   "covalentRadius": 122.0,
+   "meltingPoint": null,
+   "boilingPoint": null,
+   "density": null,
+   "phase": "Solid",
+   "discoveryYear": "1996",
+   "discoverer": "GSI Helmholtz Centre",
+   "molecule": "cn",
+   "uses": [
+    "Nuclear research",
+    "Heavy element chemistry"
+   ],
+   "summary": "Named after Nicolaus Copernicus, father of heliocentrism.",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    32,
+    18,
+    2
+   ]
+  },
+  {
+   "number": 113,
+   "symbol": "Nh",
+   "name": "Nihonium",
+   "mass": 286.0,
+   "category": "unknown",
+   "group": 13,
+   "period": 7,
+   "fBlock": 0,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 4f14 5d10 6s2 6p6 5f14 6d10 7s2 7p1",
+   "electronegativity": null,
+   "atomicRadius": null,
+   "covalentRadius": 136.0,
+   "meltingPoint": null,
+   "boilingPoint": null,
+   "density": null,
+   "phase": "Solid",
+   "discoveryYear": "2003",
+   "discoverer": "RIKEN",
+   "molecule": "nhcl3",
+   "uses": [
+    "Nuclear research",
+    "Superheavy chemistry"
+   ],
+   "summary": "First element discovered in Asia.",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    32,
+    18,
+    3
+   ]
+  },
+  {
+   "number": 114,
+   "symbol": "Fl",
+   "name": "Flerovium",
+   "mass": 289.0,
+   "category": "post-transition-metal",
+   "group": 14,
+   "period": 7,
+   "fBlock": 0,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 4f14 5d10 6s2 6p6 5f14 6d10 7s2 7p2",
+   "electronegativity": null,
+   "atomicRadius": null,
+   "covalentRadius": 143.0,
+   "meltingPoint": null,
+   "boilingPoint": null,
+   "density": null,
+   "phase": "Solid",
+   "discoveryYear": "1998",
+   "discoverer": "JINR and LLNL",
+   "molecule": "flcl4",
+   "uses": [
+    "Nuclear research",
+    "Superheavy chemistry"
+   ],
+   "summary": "Named after the Flerov Laboratory, the Dubna institute.",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    32,
+    18,
+    4
+   ]
+  },
+  {
+   "number": 115,
+   "symbol": "Mc",
+   "name": "Moscovium",
+   "mass": 290.0,
+   "category": "post-transition-metal",
+   "group": 15,
+   "period": 7,
+   "fBlock": 0,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 4f14 5d10 6s2 6p6 5f14 6d10 7s2 7p3",
+   "electronegativity": null,
+   "atomicRadius": null,
+   "covalentRadius": 162.0,
+   "meltingPoint": null,
+   "boilingPoint": null,
+   "density": null,
+   "phase": "Solid",
+   "discoveryYear": "2003",
+   "discoverer": "JINR and LLNL",
+   "molecule": "mccl5",
+   "uses": [
+    "Nuclear research",
+    "Superheavy chemistry"
+   ],
+   "summary": "Named after the Moscow region.",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    32,
+    18,
+    5
+   ]
+  },
+  {
+   "number": 116,
+   "symbol": "Lv",
+   "name": "Livermorium",
+   "mass": 293.0,
+   "category": "post-transition-metal",
+   "group": 16,
+   "period": 7,
+   "fBlock": 0,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 4f14 5d10 6s2 6p6 5f14 6d10 7s2 7p4",
+   "electronegativity": null,
+   "atomicRadius": null,
+   "covalentRadius": 175.0,
+   "meltingPoint": null,
+   "boilingPoint": null,
+   "density": null,
+   "phase": "Solid",
+   "discoveryYear": "2000",
+   "discoverer": "JINR and LLNL",
+   "molecule": "lvcl4",
+   "uses": [
+    "Nuclear research",
+    "Superheavy chemistry"
+   ],
+   "summary": "Named after Lawrence Livermore National Laboratory.",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    32,
+    18,
+    6
+   ]
+  },
+  {
+   "number": 117,
+   "symbol": "Ts",
+   "name": "Tennessine",
+   "mass": 294.0,
+   "category": "unknown",
+   "group": 17,
+   "period": 7,
+   "fBlock": 0,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 4f14 5d10 6s2 6p6 5f14 6d10 7s2 7p5",
+   "electronegativity": null,
+   "atomicRadius": null,
+   "covalentRadius": 165.0,
+   "meltingPoint": null,
+   "boilingPoint": null,
+   "density": null,
+   "phase": "Solid",
+   "discoveryYear": "2010",
+   "discoverer": "JINR, LLNL and ORNL",
+   "molecule": "tscl4",
+   "uses": [
+    "Nuclear research",
+    "Superheavy chemistry"
+   ],
+   "summary": "Named after Tennessee, home of ORNL.",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    32,
+    18,
+    7
+   ]
+  },
+  {
+   "number": 118,
+   "symbol": "Og",
+   "name": "Oganesson",
+   "mass": 294.0,
+   "category": "unknown",
+   "group": 18,
+   "period": 7,
+   "fBlock": 0,
+   "configuration": "1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 4f14 5d10 6s2 6p6 5f14 6d10 7s2 7p6",
+   "electronegativity": null,
+   "atomicRadius": null,
+   "covalentRadius": 157.0,
+   "meltingPoint": null,
+   "boilingPoint": null,
+   "density": null,
+   "phase": "Unknown",
+   "discoveryYear": "2002",
+   "discoverer": "JINR and LLNL",
+   "molecule": "og",
+   "uses": [
+    "Nuclear research",
+    "Superheavy chemistry"
+   ],
+   "summary": "Heaviest and most recent element on the periodic table.",
+   "shells": [
+    2,
+    8,
+    18,
+    32,
+    32,
+    18,
+    8
+   ]
+  }
+ ],
+ "molecules": [
+  {
+   "identifier": "h2so4",
+   "bondOrders": {
+    "0": 2,
+    "1": 2
+   },
+   "name": "Sulphuric acid",
+   "formula": "H2SO4",
+   "geometry": "explicit",
+   "atoms": [
+    "S",
+    "O",
+    "O",
+    "O",
+    "O",
+    "H",
+    "H"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2",
+    "0-3",
+    "0-4",
+    "3-5",
+    "4-6"
+   ],
+   "details": "Two hydroxyl groups and two double-bonded oxygens around sulphur."
+  },
+  {
+   "identifier": "cocl2",
+   "bondOrders": {},
+   "name": "Cobalt(II) chloride",
+   "formula": "CoCl2",
+   "geometry": "linear",
+   "atoms": [
+    "Co",
+    "Cl",
+    "Cl"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2"
+   ],
+   "details": "A linear gas-phase transition-metal dihalide."
+  },
+  {
+   "identifier": "nicl2",
+   "bondOrders": {},
+   "name": "Nickel(II) chloride",
+   "formula": "NiCl2",
+   "geometry": "linear",
+   "atoms": [
+    "Ni",
+    "Cl",
+    "Cl"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2"
+   ],
+   "details": "A linear gas-phase transition-metal dihalide."
+  },
+  {
+   "identifier": "zncl2",
+   "bondOrders": {},
+   "name": "Zinc chloride",
+   "formula": "ZnCl2",
+   "geometry": "linear",
+   "atoms": [
+    "Zn",
+    "Cl",
+    "Cl"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2"
+   ],
+   "details": "A linear, electron-deficient zinc dihalide."
+  },
+  {
+   "identifier": "rhcl3",
+   "bondOrders": {},
+   "name": "Rhodium(III) chloride",
+   "formula": "RhCl3",
+   "geometry": "pyramidal",
+   "atoms": [
+    "Rh",
+    "Cl",
+    "Cl",
+    "Cl"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2",
+    "0-3"
+   ],
+   "details": "A square-planar rhodium(III) complex in the solid state."
+  },
+  {
+   "identifier": "ircl3",
+   "bondOrders": {},
+   "name": "Iridium(III) chloride",
+   "formula": "IrCl3",
+   "geometry": "pyramidal",
+   "atoms": [
+    "Ir",
+    "Cl",
+    "Cl",
+    "Cl"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2",
+    "0-3"
+   ],
+   "details": "A square-planar iridium complex used in catalysis."
+  },
+  {
+   "identifier": "water",
+   "bondOrders": {},
+   "name": "Water",
+   "formula": "H2O",
+   "geometry": "bent",
+   "atoms": [
+    "O",
+    "H",
+    "H"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2"
+   ],
+   "details": "The bent geometry of water comes from two lone pairs on oxygen."
+  },
+  {
+   "identifier": "neon",
+   "bondOrders": {},
+   "name": "Neon atom",
+   "formula": "Ne",
+   "geometry": "monatomic",
+   "atoms": [
+    "Ne"
+   ],
+   "bonds": [],
+   "details": "A single, fully inert noble gas atom."
+  },
+  {
+   "identifier": "argon",
+   "bondOrders": {},
+   "name": "Argon atom",
+   "formula": "Ar",
+   "geometry": "monatomic",
+   "atoms": [
+    "Ar"
+   ],
+   "bonds": [],
+   "details": "A single, fully inert noble gas atom."
+  },
+  {
+   "identifier": "krypton",
+   "bondOrders": {},
+   "name": "Krypton atom",
+   "formula": "Kr",
+   "geometry": "monatomic",
+   "atoms": [
+    "Kr"
+   ],
+   "bonds": [],
+   "details": "A single, fully inert noble gas atom."
+  },
+  {
+   "identifier": "radon",
+   "bondOrders": {},
+   "name": "Radon atom",
+   "formula": "Rn",
+   "geometry": "monatomic",
+   "atoms": [
+    "Rn"
+   ],
+   "bonds": [],
+   "details": "A single, fully inert noble gas atom."
+  },
+  {
+   "identifier": "cn",
+   "bondOrders": {},
+   "name": "Copernicium atom",
+   "formula": "Cn",
+   "geometry": "monatomic",
+   "atoms": [
+    "Cn"
+   ],
+   "bonds": [],
+   "details": "A single superheavy atom."
+  },
+  {
+   "identifier": "og",
+   "bondOrders": {},
+   "name": "Oganesson atom",
+   "formula": "Og",
+   "geometry": "monatomic",
+   "atoms": [
+    "Og"
+   ],
+   "bonds": [],
+   "details": "A single superheavy atom."
+  },
+  {
+   "identifier": "licl",
+   "bondOrders": {},
+   "name": "Lithium chloride",
+   "formula": "LiCl",
+   "geometry": "diatomic",
+   "atoms": [
+    "Li",
+    "Cl"
+   ],
+   "bonds": [
+    "0-1"
+   ],
+   "details": "An ionic salt; a simple two-atom lattice."
+  },
+  {
+   "identifier": "nacl",
+   "bondOrders": {},
+   "name": "Sodium chloride",
+   "formula": "NaCl",
+   "geometry": "cubic-na",
+   "atoms": [
+    "Na",
+    "Cl"
+   ],
+   "bonds": [],
+   "details": "The rock-salt lattice, the archetype of an ionic crystal."
+  },
+  {
+   "identifier": "kcl",
+   "bondOrders": {},
+   "name": "Potassium chloride",
+   "formula": "KCl",
+   "geometry": "cubic-na",
+   "atoms": [
+    "K",
+    "Cl"
+   ],
+   "bonds": [],
+   "details": "Also crystallises in the rock-salt structure."
+  },
+  {
+   "identifier": "rbcl",
+   "bondOrders": {},
+   "name": "Rubidium chloride",
+   "formula": "RbCl",
+   "geometry": "cubic-na",
+   "atoms": [
+    "Rb",
+    "Cl"
+   ],
+   "bonds": [],
+   "details": "An alkali halide with the rock-salt structure."
+  },
+  {
+   "identifier": "ki",
+   "bondOrders": {},
+   "name": "Potassium iodide",
+   "formula": "KI",
+   "geometry": "cubic-na",
+   "atoms": [
+    "K",
+    "I"
+   ],
+   "bonds": [],
+   "details": "Used in dietary supplements and infrared optics."
+  },
+  {
+   "identifier": "cscl",
+   "bondOrders": {},
+   "name": "Caesium chloride",
+   "formula": "CsCl",
+   "geometry": "cubic-cs",
+   "atoms": [
+    "Cs",
+    "Cl"
+   ],
+   "bonds": [],
+   "details": "The caesium-chloride lattice, coordination number eight."
+  },
+  {
+   "identifier": "agcl",
+   "bondOrders": {},
+   "name": "Silver chloride",
+   "formula": "AgCl",
+   "geometry": "diatomic",
+   "atoms": [
+    "Ag",
+    "Cl"
+   ],
+   "bonds": [
+    "0-1"
+   ],
+   "details": "The light-sensitive salt at the heart of photographic film."
+  },
+  {
+   "identifier": "agbr",
+   "bondOrders": {},
+   "name": "Silver bromide",
+   "formula": "AgBr",
+   "geometry": "diatomic",
+   "atoms": [
+    "Ag",
+    "Br"
+   ],
+   "bonds": [
+    "0-1"
+   ],
+   "details": "The most light-sensitive photographic emulsion."
+  },
+  {
+   "identifier": "cds",
+   "bondOrders": {},
+   "name": "Cadmium sulfide",
+   "formula": "CdS",
+   "geometry": "cubic-na",
+   "atoms": [
+    "Cd",
+    "S"
+   ],
+   "bonds": [],
+   "details": "A wide-bandgap semiconductor used in solar cells."
+  },
+  {
+   "identifier": "tlcl",
+   "bondOrders": {},
+   "name": "Thallium chloride",
+   "formula": "TlCl",
+   "geometry": "diatomic",
+   "atoms": [
+    "Tl",
+    "Cl"
+   ],
+   "bonds": [
+    "0-1"
+   ],
+   "details": "A heavy, photosensitive thallium halide."
+  },
+  {
+   "identifier": "atcl",
+   "bondOrders": {},
+   "name": "Astatine chloride",
+   "formula": "AtCl",
+   "geometry": "diatomic",
+   "atoms": [
+    "At",
+    "Cl"
+   ],
+   "bonds": [
+    "0-1"
+   ],
+   "details": "An extremely rare heavy halogen compound."
+  },
+  {
+   "identifier": "frcl",
+   "bondOrders": {},
+   "name": "Francium chloride",
+   "formula": "FrCl",
+   "geometry": "diatomic",
+   "atoms": [
+    "Fr",
+    "Cl"
+   ],
+   "bonds": [
+    "0-1"
+   ],
+   "details": "The heaviest alkali metal halide."
+  },
+  {
+   "identifier": "becl2",
+   "bondOrders": {},
+   "name": "Beryllium chloride",
+   "formula": "BeCl2",
+   "geometry": "linear",
+   "atoms": [
+    "Be",
+    "Cl",
+    "Cl"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2"
+   ],
+   "details": "A linear molecule with two electron-deficient bonds."
+  },
+  {
+   "identifier": "mgcl2",
+   "bondOrders": {},
+   "name": "Magnesium chloride",
+   "formula": "MgCl2",
+   "geometry": "linear",
+   "atoms": [
+    "Mg",
+    "Cl",
+    "Cl"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2"
+   ],
+   "details": "An ionic salt with a linear gas-phase geometry."
+  },
+  {
+   "identifier": "srcl2",
+   "bondOrders": {},
+   "name": "Strontium chloride",
+   "formula": "SrCl2",
+   "geometry": "linear",
+   "atoms": [
+    "Sr",
+    "Cl",
+    "Cl"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2"
+   ],
+   "details": "An alkaline-earth halide."
+  },
+  {
+   "identifier": "racl2",
+   "bondOrders": {},
+   "name": "Radium chloride",
+   "formula": "RaCl2",
+   "geometry": "linear",
+   "atoms": [
+    "Ra",
+    "Cl",
+    "Cl"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2"
+   ],
+   "details": "A radium salt once used in luminous paint."
+  },
+  {
+   "identifier": "bf3",
+   "bondOrders": {},
+   "name": "Boron trifluoride",
+   "formula": "BF3",
+   "geometry": "planar-trigonal",
+   "atoms": [
+    "B",
+    "F",
+    "F",
+    "F"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2",
+    "0-3"
+   ],
+   "details": "A flat, trigonal planar molecule with a boron deficiency."
+  },
+  {
+   "identifier": "alcl3",
+   "bondOrders": {},
+   "name": "Aluminium chloride",
+   "formula": "AlCl3",
+   "geometry": "planar-trigonal",
+   "atoms": [
+    "Al",
+    "Cl",
+    "Cl",
+    "Cl"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2",
+    "0-3"
+   ],
+   "details": "Dimeric in the solid state, planar as a gas."
+  },
+  {
+   "identifier": "gacl3",
+   "bondOrders": {},
+   "name": "Gallium trichloride",
+   "formula": "GaCl3",
+   "geometry": "planar-trigonal",
+   "atoms": [
+    "Ga",
+    "Cl",
+    "Cl",
+    "Cl"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2",
+    "0-3"
+   ],
+   "details": "A group 13 trihalide with trigonal planar geometry."
+  },
+  {
+   "identifier": "aucl3",
+   "bondOrders": {},
+   "name": "Gold(III) chloride",
+   "formula": "AuCl3",
+   "geometry": "planar-trigonal",
+   "atoms": [
+    "Au",
+    "Cl",
+    "Cl",
+    "Cl"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2",
+    "0-3"
+   ],
+   "details": "A square-planar gold complex in its active form."
+  },
+  {
+   "identifier": "sncl4",
+   "bondOrders": {},
+   "name": "Tin tetrachloride",
+   "formula": "SnCl4",
+   "geometry": "tetrahedral",
+   "atoms": [
+    "Sn",
+    "Cl",
+    "Cl",
+    "Cl",
+    "Cl"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2",
+    "0-3",
+    "0-4"
+   ],
+   "details": "A classic tetrahedral group 14 tetrachloride."
+  },
+  {
+   "identifier": "ccl4",
+   "bondOrders": {},
+   "name": "Carbon tetrachloride",
+   "formula": "CCl4",
+   "geometry": "tetrahedral",
+   "atoms": [
+    "C",
+    "Cl",
+    "Cl",
+    "Cl",
+    "Cl"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2",
+    "0-3",
+    "0-4"
+   ],
+   "details": "Non-polar and formerly a ubiquitous solvent."
+  },
+  {
+   "identifier": "methane",
+   "bondOrders": {},
+   "name": "Methane",
+   "formula": "CH4",
+   "geometry": "tetrahedral",
+   "atoms": [
+    "C",
+    "H",
+    "H",
+    "H",
+    "H"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2",
+    "0-3",
+    "0-4"
+   ],
+   "details": "The simplest alkane and the principal greenhouse gas."
+  },
+  {
+   "identifier": "si",
+   "bondOrders": {},
+   "name": "Silicon dioxide tetrahedron",
+   "formula": "SiO4",
+   "geometry": "tetrahedral",
+   "atoms": [
+    "Si",
+    "O",
+    "O",
+    "O",
+    "O"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2",
+    "0-3",
+    "0-4"
+   ],
+   "details": "The SiO4 tetrahedron at the heart of every silicate mineral."
+  },
+  {
+   "identifier": "sio2",
+   "bondOrders": {},
+   "name": "Silicon dioxide",
+   "formula": "SiO2",
+   "geometry": "tetrahedral",
+   "atoms": [
+    "Si",
+    "O",
+    "O",
+    "O",
+    "O"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2",
+    "0-3",
+    "0-4"
+   ],
+   "details": "The SiO4 tetrahedron at the heart of every silicate mineral."
+  },
+  {
+   "identifier": "geo2",
+   "bondOrders": {},
+   "name": "Germanium dioxide",
+   "formula": "GeO2",
+   "geometry": "tetrahedral",
+   "atoms": [
+    "Ge",
+    "O",
+    "O",
+    "O",
+    "O"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2",
+    "0-3",
+    "0-4"
+   ],
+   "details": "A tetrahedral network glass former."
+  },
+  {
+   "identifier": "zro2",
+   "bondOrders": {},
+   "name": "Zirconium dioxide",
+   "formula": "ZrO2",
+   "geometry": "tetrahedral",
+   "atoms": [
+    "Zr",
+    "O",
+    "O",
+    "O",
+    "O"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2",
+    "0-3",
+    "0-4"
+   ],
+   "details": "The tough ceramic used in cubic zirconia cutters."
+  },
+  {
+   "identifier": "hfo2",
+   "bondOrders": {},
+   "name": "Hafnium dioxide",
+   "formula": "HfO2",
+   "geometry": "tetrahedral",
+   "atoms": [
+    "Hf",
+    "O",
+    "O",
+    "O",
+    "O"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2",
+    "0-3",
+    "0-4"
+   ],
+   "details": "A high-k dielectric used in modern transistors."
+  },
+  {
+   "identifier": "rfcl4",
+   "bondOrders": {},
+   "name": "Rutherfordium tetrachloride",
+   "formula": "RfCl4",
+   "geometry": "tetrahedral",
+   "atoms": [
+    "Rf",
+    "Cl",
+    "Cl",
+    "Cl",
+    "Cl"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2",
+    "0-3",
+    "0-4"
+   ],
+   "details": "A predicted tetrachloride of a superheavy element."
+  },
+  {
+   "identifier": "bhcl4",
+   "bondOrders": {},
+   "name": "Bohrium tetrachloride",
+   "formula": "BhCl4",
+   "geometry": "tetrahedral",
+   "atoms": [
+    "Bh",
+    "Cl",
+    "Cl",
+    "Cl",
+    "Cl"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2",
+    "0-3",
+    "0-4"
+   ],
+   "details": "A predicted group 7 tetrachloride."
+  },
+  {
+   "identifier": "hscl4",
+   "bondOrders": {},
+   "name": "Hassium tetrachloride",
+   "formula": "HsCl4",
+   "geometry": "tetrahedral",
+   "atoms": [
+    "Hs",
+    "Cl",
+    "Cl",
+    "Cl",
+    "Cl"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2",
+    "0-3",
+    "0-4"
+   ],
+   "details": "A predicted group 8 tetrachloride."
+  },
+  {
+   "identifier": "mtcl4",
+   "bondOrders": {},
+   "name": "Meitnerium tetrachloride",
+   "formula": "MtCl4",
+   "geometry": "tetrahedral",
+   "atoms": [
+    "Mt",
+    "Cl",
+    "Cl",
+    "Cl",
+    "Cl"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2",
+    "0-3",
+    "0-4"
+   ],
+   "details": "A predicted group 9 tetrachloride."
+  },
+  {
+   "identifier": "dscl4",
+   "bondOrders": {},
+   "name": "Darmstadtium tetrachloride",
+   "formula": "DsCl4",
+   "geometry": "tetrahedral",
+   "atoms": [
+    "Ds",
+    "Cl",
+    "Cl",
+    "Cl",
+    "Cl"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2",
+    "0-3",
+    "0-4"
+   ],
+   "details": "A predicted group 10 tetrachloride."
+  },
+  {
+   "identifier": "rgcl4",
+   "bondOrders": {},
+   "name": "Roentgenium tetrachloride",
+   "formula": "RgCl4",
+   "geometry": "tetrahedral",
+   "atoms": [
+    "Rg",
+    "Cl",
+    "Cl",
+    "Cl",
+    "Cl"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2",
+    "0-3",
+    "0-4"
+   ],
+   "details": "A predicted group 11 tetrachloride."
+  },
+  {
+   "identifier": "flcl4",
+   "bondOrders": {},
+   "name": "Flerovium tetrachloride",
+   "formula": "FlCl4",
+   "geometry": "tetrahedral",
+   "atoms": [
+    "Fl",
+    "Cl",
+    "Cl",
+    "Cl",
+    "Cl"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2",
+    "0-3",
+    "0-4"
+   ],
+   "details": "A predicted group 14 tetrachloride."
+  },
+  {
+   "identifier": "lvcl4",
+   "bondOrders": {},
+   "name": "Livermorium tetrachloride",
+   "formula": "LvCl4",
+   "geometry": "tetrahedral",
+   "atoms": [
+    "Lv",
+    "Cl",
+    "Cl",
+    "Cl",
+    "Cl"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2",
+    "0-3",
+    "0-4"
+   ],
+   "details": "A predicted group 16 tetrachloride."
+  },
+  {
+   "identifier": "tscl4",
+   "bondOrders": {},
+   "name": "Tennessine tetrachloride",
+   "formula": "TsCl4",
+   "geometry": "tetrahedral",
+   "atoms": [
+    "Ts",
+    "Cl",
+    "Cl",
+    "Cl",
+    "Cl"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2",
+    "0-3",
+    "0-4"
+   ],
+   "details": "A predicted group 17 tetrachloride."
+  },
+  {
+   "identifier": "nhcl3",
+   "bondOrders": {},
+   "name": "Nihonium trichloride",
+   "formula": "NhCl3",
+   "geometry": "pyramidal",
+   "atoms": [
+    "Nh",
+    "Cl",
+    "Cl",
+    "Cl"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2",
+    "0-3"
+   ],
+   "details": "A predicted group 13 trichloride."
+  },
+  {
+   "identifier": "incl3",
+   "bondOrders": {},
+   "name": "Indium trichloride",
+   "formula": "InCl3",
+   "geometry": "pyramidal",
+   "atoms": [
+    "In",
+    "Cl",
+    "Cl",
+    "Cl"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2",
+    "0-3"
+   ],
+   "details": "A group 13 trichloride, pyramidal as a gas."
+  },
+  {
+   "identifier": "sccl3",
+   "bondOrders": {},
+   "name": "Scandium trichloride",
+   "formula": "ScCl3",
+   "geometry": "pyramidal",
+   "atoms": [
+    "Sc",
+    "Cl",
+    "Cl",
+    "Cl"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2",
+    "0-3"
+   ],
+   "details": "A rare-earth trichloride with trigonal pyramidal shape."
+  },
+  {
+   "identifier": "ycl3",
+   "bondOrders": {},
+   "name": "Yttrium trichloride",
+   "formula": "YCl3",
+   "geometry": "pyramidal",
+   "atoms": [
+    "Y",
+    "Cl",
+    "Cl",
+    "Cl"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2",
+    "0-3"
+   ],
+   "details": "A rare-earth trichloride."
+  },
+  {
+   "identifier": "lacl3",
+   "bondOrders": {},
+   "name": "Lanthanum trichloride",
+   "formula": "LaCl3",
+   "geometry": "pyramidal",
+   "atoms": [
+    "La",
+    "Cl",
+    "Cl",
+    "Cl"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2",
+    "0-3"
+   ],
+   "details": "A light lanthanide trichloride."
+  },
+  {
+   "identifier": "prcl3",
+   "bondOrders": {},
+   "name": "Praseodymium trichloride",
+   "formula": "PrCl3",
+   "geometry": "pyramidal",
+   "atoms": [
+    "Pr",
+    "Cl",
+    "Cl",
+    "Cl"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2",
+    "0-3"
+   ],
+   "details": "A lanthanide trichloride."
+  },
+  {
+   "identifier": "ndcl3",
+   "bondOrders": {},
+   "name": "Neodymium trichloride",
+   "formula": "NdCl3",
+   "geometry": "pyramidal",
+   "atoms": [
+    "Nd",
+    "Cl",
+    "Cl",
+    "Cl"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2",
+    "0-3"
+   ],
+   "details": "The precursor to neodymium magnet alloys."
+  },
+  {
+   "identifier": "pmcl3",
+   "bondOrders": {},
+   "name": "Promethium trichloride",
+   "formula": "PmCl3",
+   "geometry": "pyramidal",
+   "atoms": [
+    "Pm",
+    "Cl",
+    "Cl",
+    "Cl"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2",
+    "0-3"
+   ],
+   "details": "The only radioactive lanthanide chloride."
+  },
+  {
+   "identifier": "smcl3",
+   "bondOrders": {},
+   "name": "Samarium trichloride",
+   "formula": "SmCl3",
+   "geometry": "pyramidal",
+   "atoms": [
+    "Sm",
+    "Cl",
+    "Cl",
+    "Cl"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2",
+    "0-3"
+   ],
+   "details": "Used in samarium-cobalt magnet production."
+  },
+  {
+   "identifier": "eucl3",
+   "bondOrders": {},
+   "name": "Europium trichloride",
+   "formula": "EuCl3",
+   "geometry": "pyramidal",
+   "atoms": [
+    "Eu",
+    "Cl",
+    "Cl",
+    "Cl"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2",
+    "0-3"
+   ],
+   "details": "The precursor of europium phosphors."
+  },
+  {
+   "identifier": "gdcl3",
+   "bondOrders": {},
+   "name": "Gadolinium trichloride",
+   "formula": "GdCl3",
+   "geometry": "pyramidal",
+   "atoms": [
+    "Gd",
+    "Cl",
+    "Cl",
+    "Cl"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2",
+    "0-3"
+   ],
+   "details": "A paramagnetic MRI contrast salt."
+  },
+  {
+   "identifier": "tbcl3",
+   "bondOrders": {},
+   "name": "Terbium trichloride",
+   "formula": "TbCl3",
+   "geometry": "pyramidal",
+   "atoms": [
+    "Tb",
+    "Cl",
+    "Cl",
+    "Cl"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2",
+    "0-3"
+   ],
+   "details": "A green-emitting phosphor precursor."
+  },
+  {
+   "identifier": "dycl3",
+   "bondOrders": {},
+   "name": "Dysprosium trichloride",
+   "formula": "DyCl3",
+   "geometry": "pyramidal",
+   "atoms": [
+    "Dy",
+    "Cl",
+    "Cl",
+    "Cl"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2",
+    "0-3"
+   ],
+   "details": "Strengthens high-performance permanent magnets."
+  },
+  {
+   "identifier": "hocl3",
+   "bondOrders": {},
+   "name": "Holmium trichloride",
+   "formula": "HoCl3",
+   "geometry": "pyramidal",
+   "atoms": [
+    "Ho",
+    "Cl",
+    "Cl",
+    "Cl"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2",
+    "0-3"
+   ],
+   "details": "The source of the highest magnetic moment known."
+  },
+  {
+   "identifier": "ercl3",
+   "bondOrders": {},
+   "name": "Erbium trichloride",
+   "formula": "ErCl3",
+   "geometry": "pyramidal",
+   "atoms": [
+    "Er",
+    "Cl",
+    "Cl",
+    "Cl"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2",
+    "0-3"
+   ],
+   "details": "The dopant in erbium optical amplifiers."
+  },
+  {
+   "identifier": "tmcl3",
+   "bondOrders": {},
+   "name": "Thulium trichloride",
+   "formula": "TmCl3",
+   "geometry": "pyramidal",
+   "atoms": [
+    "Tm",
+    "Cl",
+    "Cl",
+    "Cl"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2",
+    "0-3"
+   ],
+   "details": "Used in portable X-ray sources."
+  },
+  {
+   "identifier": "ybcl3",
+   "bondOrders": {},
+   "name": "Ytterbium trichloride",
+   "formula": "YbCl3",
+   "geometry": "pyramidal",
+   "atoms": [
+    "Yb",
+    "Cl",
+    "Cl",
+    "Cl"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2",
+    "0-3"
+   ],
+   "details": "The feedstock for ytterbium laser crystals."
+  },
+  {
+   "identifier": "lucl3",
+   "bondOrders": {},
+   "name": "Lutetium trichloride",
+   "formula": "LuCl3",
+   "geometry": "pyramidal",
+   "atoms": [
+    "Lu",
+    "Cl",
+    "Cl",
+    "Cl"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2",
+    "0-3"
+   ],
+   "details": "A PET-scanner detector salt."
+  },
+  {
+   "identifier": "accl3",
+   "bondOrders": {},
+   "name": "Actinium trichloride",
+   "formula": "AcCl3",
+   "geometry": "pyramidal",
+   "atoms": [
+    "Ac",
+    "Cl",
+    "Cl",
+    "Cl"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2",
+    "0-3"
+   ],
+   "details": "A highly radioactive actinide salt."
+  },
+  {
+   "identifier": "amcl3",
+   "bondOrders": {},
+   "name": "Americium trichloride",
+   "formula": "AmCl3",
+   "geometry": "pyramidal",
+   "atoms": [
+    "Am",
+    "Cl",
+    "Cl",
+    "Cl"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2",
+    "0-3"
+   ],
+   "details": "An actinide salt used in alpha sources."
+  },
+  {
+   "identifier": "cmcl3",
+   "bondOrders": {},
+   "name": "Curium trichloride",
+   "formula": "CmCl3",
+   "geometry": "pyramidal",
+   "atoms": [
+    "Cm",
+    "Cl",
+    "Cl",
+    "Cl"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2",
+    "0-3"
+   ],
+   "details": "The target material for curium alpha sources."
+  },
+  {
+   "identifier": "bkcl3",
+   "bondOrders": {},
+   "name": "Berkelium trichloride",
+   "formula": "BkCl3",
+   "geometry": "pyramidal",
+   "atoms": [
+    "Bk",
+    "Cl",
+    "Cl",
+    "Cl"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2",
+    "0-3"
+   ],
+   "details": "A rare transuranic chloride."
+  },
+  {
+   "identifier": "cfcl3",
+   "bondOrders": {},
+   "name": "Californium trichloride",
+   "formula": "CfCl3",
+   "geometry": "pyramidal",
+   "atoms": [
+    "Cf",
+    "Cl",
+    "Cl",
+    "Cl"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2",
+    "0-3"
+   ],
+   "details": "The precursor of californium neutron sources."
+  },
+  {
+   "identifier": "escl3",
+   "bondOrders": {},
+   "name": "Einsteinium trichloride",
+   "formula": "EsCl3",
+   "geometry": "pyramidal",
+   "atoms": [
+    "Es",
+    "Cl",
+    "Cl",
+    "Cl"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2",
+    "0-3"
+   ],
+   "details": "A highly radioactive actinide salt."
+  },
+  {
+   "identifier": "fmcl3",
+   "bondOrders": {},
+   "name": "Fermium trichloride",
+   "formula": "FmCl3",
+   "geometry": "pyramidal",
+   "atoms": [
+    "Fm",
+    "Cl",
+    "Cl",
+    "Cl"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2",
+    "0-3"
+   ],
+   "details": "Among the heaviest compounds ever synthesised."
+  },
+  {
+   "identifier": "mdcl3",
+   "bondOrders": {},
+   "name": "Mendelevium trichloride",
+   "formula": "MdCl3",
+   "geometry": "pyramidal",
+   "atoms": [
+    "Md",
+    "Cl",
+    "Cl",
+    "Cl"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2",
+    "0-3"
+   ],
+   "details": "A transuranic salt studied in trace amounts only."
+  },
+  {
+   "identifier": "nocl3",
+   "bondOrders": {},
+   "name": "Nobelium trichloride",
+   "formula": "NoCl3",
+   "geometry": "pyramidal",
+   "atoms": [
+    "No",
+    "Cl",
+    "Cl",
+    "Cl"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2",
+    "0-3"
+   ],
+   "details": "Known only from tracer-level experiments."
+  },
+  {
+   "identifier": "lrcl3",
+   "bondOrders": {},
+   "name": "Lawrencium trichloride",
+   "formula": "LrCl3",
+   "geometry": "pyramidal",
+   "atoms": [
+    "Lr",
+    "Cl",
+    "Cl",
+    "Cl"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2",
+    "0-3"
+   ],
+   "details": "A predicted actinide chloride."
+  },
+  {
+   "identifier": "ammonia",
+   "bondOrders": {},
+   "name": "Ammonia",
+   "formula": "NH3",
+   "geometry": "pyramidal",
+   "atoms": [
+    "N",
+    "H",
+    "H",
+    "H"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2",
+    "0-3"
+   ],
+   "details": "A trigonal pyramid with a lone pair on nitrogen."
+  },
+  {
+   "identifier": "pcl3",
+   "bondOrders": {},
+   "name": "Phosphorus trichloride",
+   "formula": "PCl3",
+   "geometry": "pyramidal",
+   "atoms": [
+    "P",
+    "Cl",
+    "Cl",
+    "Cl"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2",
+    "0-3"
+   ],
+   "details": "A pyramidal molecule with three P-Cl bonds."
+  },
+  {
+   "identifier": "seo2",
+   "bondOrders": {},
+   "name": "Selenium dioxide",
+   "formula": "SeO2",
+   "geometry": "bent",
+   "atoms": [
+    "Se",
+    "O",
+    "O"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2"
+   ],
+   "details": "A bent, pyramidal molecule with a lone pair."
+  },
+  {
+   "identifier": "teo2",
+   "bondOrders": {},
+   "name": "Tellurium dioxide",
+   "formula": "TeO2",
+   "geometry": "bent",
+   "atoms": [
+    "Te",
+    "O",
+    "O"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2"
+   ],
+   "details": "A bent oxide of a heavy chalcogen."
+  },
+  {
+   "identifier": "pdcl2",
+   "bondOrders": {},
+   "name": "Palladium(II) chloride",
+   "formula": "PdCl2",
+   "geometry": "bent",
+   "atoms": [
+    "Pd",
+    "Cl",
+    "Cl"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2"
+   ],
+   "details": "Square-planar in the solid, bent as a gas."
+  },
+  {
+   "identifier": "pbcl2",
+   "bondOrders": {},
+   "name": "Lead(II) chloride",
+   "formula": "PbCl2",
+   "geometry": "bent",
+   "atoms": [
+    "Pb",
+    "Cl",
+    "Cl"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2"
+   ],
+   "details": "A bent heavy-metal dihalide."
+  },
+  {
+   "identifier": "pocl2",
+   "bondOrders": {},
+   "name": "Polonium dichloride",
+   "formula": "PoCl2",
+   "geometry": "bent",
+   "atoms": [
+    "Po",
+    "Cl",
+    "Cl"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2"
+   ],
+   "details": "A rare, highly radioactive dihalide."
+  },
+  {
+   "identifier": "no2",
+   "bondOrders": {},
+   "name": "Nitrogen dioxide",
+   "formula": "NO2",
+   "geometry": "bent",
+   "atoms": [
+    "N",
+    "O",
+    "O"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2"
+   ],
+   "details": "A bent radical responsible for smog and acid rain."
+  },
+  {
+   "identifier": "o3",
+   "bondOrders": {},
+   "name": "Ozone",
+   "formula": "O3",
+   "geometry": "bent",
+   "atoms": [
+    "O",
+    "O",
+    "O"
+   ],
+   "bonds": [
+    "0-1",
+    "1-2"
+   ],
+   "details": "A bent allotrope that shields the Earth from ultraviolet light."
+  },
+  {
+   "identifier": "hgcl2",
+   "bondOrders": {},
+   "name": "Mercury(II) chloride",
+   "formula": "HgCl2",
+   "geometry": "linear",
+   "atoms": [
+    "Hg",
+    "Cl",
+    "Cl"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2"
+   ],
+   "details": "A linear heavy-metal dihalide."
+  },
+  {
+   "identifier": "octahedral_sf6",
+   "bondOrders": {},
+   "name": "Sulfur hexafluoride",
+   "formula": "SF6",
+   "geometry": "octahedral",
+   "atoms": [
+    "S",
+    "F",
+    "F",
+    "F",
+    "F",
+    "F",
+    "F"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2",
+    "0-3",
+    "0-4",
+    "0-5",
+    "0-6"
+   ],
+   "details": "A perfect octahedron and a potent greenhouse gas."
+  },
+  {
+   "identifier": "sgf6",
+   "bondOrders": {},
+   "name": "Seaborgium hexafluoride",
+   "formula": "SgF6",
+   "geometry": "octahedral",
+   "atoms": [
+    "Sg",
+    "F",
+    "F",
+    "F",
+    "F",
+    "F",
+    "F"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2",
+    "0-3",
+    "0-4",
+    "0-5",
+    "0-6"
+   ],
+   "details": "A predicted octahedral hexafluoride."
+  },
+  {
+   "identifier": "xef4",
+   "bondOrders": {},
+   "name": "Xenon tetrafluoride",
+   "formula": "XeF4",
+   "geometry": "square-planar",
+   "atoms": [
+    "Xe",
+    "F",
+    "F",
+    "F",
+    "F"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2",
+    "0-3",
+    "0-4"
+   ],
+   "details": "A square planar xenon compound with two lone pairs."
+  },
+  {
+   "identifier": "ptcl4",
+   "bondOrders": {},
+   "name": "Platinum(IV) chloride",
+   "formula": "PtCl4",
+   "geometry": "square-planar",
+   "atoms": [
+    "Pt",
+    "Cl",
+    "Cl",
+    "Cl",
+    "Cl"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2",
+    "0-3",
+    "0-4"
+   ],
+   "details": "A square planar platinum complex."
+  },
+  {
+   "identifier": "tacl5",
+   "bondOrders": {},
+   "name": "Tantalum pentachloride",
+   "formula": "TaCl5",
+   "geometry": "trigonal-bipyramidal",
+   "atoms": [
+    "Ta",
+    "Cl",
+    "Cl",
+    "Cl",
+    "Cl",
+    "Cl"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2",
+    "0-3",
+    "0-4",
+    "0-5"
+   ],
+   "details": "A five-coordinate tantalum halide."
+  },
+  {
+   "identifier": "dbcl5",
+   "bondOrders": {},
+   "name": "Dubnium pentachloride",
+   "formula": "DbCl5",
+   "geometry": "trigonal-bipyramidal",
+   "atoms": [
+    "Db",
+    "Cl",
+    "Cl",
+    "Cl",
+    "Cl",
+    "Cl"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2",
+    "0-3",
+    "0-4",
+    "0-5"
+   ],
+   "details": "A predicted group 5 pentachloride."
+  },
+  {
+   "identifier": "mccl5",
+   "bondOrders": {},
+   "name": "Moscovium pentachloride",
+   "formula": "McCl5",
+   "geometry": "trigonal-bipyramidal",
+   "atoms": [
+    "Mc",
+    "Cl",
+    "Cl",
+    "Cl",
+    "Cl",
+    "Cl"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2",
+    "0-3",
+    "0-4",
+    "0-5"
+   ],
+   "details": "A predicted group 15 pentachloride."
+  },
+  {
+   "identifier": "nbcl5",
+   "bondOrders": {},
+   "name": "Niobium pentachloride",
+   "formula": "NbCl5",
+   "geometry": "trigonal-bipyramidal",
+   "atoms": [
+    "Nb",
+    "Cl",
+    "Cl",
+    "Cl",
+    "Cl",
+    "Cl"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2",
+    "0-3",
+    "0-4",
+    "0-5"
+   ],
+   "details": "A trigonal bipyramidal group 5 halide."
+  },
+  {
+   "identifier": "ruo4",
+   "bondOrders": {},
+   "name": "Ruthenium tetroxide",
+   "formula": "RuO4",
+   "geometry": "tetrahedral",
+   "atoms": [
+    "Ru",
+    "O",
+    "O",
+    "O",
+    "O"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2",
+    "0-3",
+    "0-4"
+   ],
+   "details": "A volatile, toxic tetrahedral oxide."
+  },
+  {
+   "identifier": "oso4",
+   "bondOrders": {},
+   "name": "Osmium tetroxide",
+   "formula": "OsO4",
+   "geometry": "tetrahedral",
+   "atoms": [
+    "Os",
+    "O",
+    "O",
+    "O",
+    "O"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2",
+    "0-3",
+    "0-4"
+   ],
+   "details": "A volatile tetrahedral oxide used in microscopy."
+  },
+  {
+   "identifier": "tio2",
+   "bondOrders": {},
+   "name": "Titanium dioxide",
+   "formula": "TiO2",
+   "geometry": "octahedral",
+   "atoms": [
+    "Ti",
+    "O",
+    "O",
+    "O",
+    "O",
+    "O",
+    "O"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2",
+    "0-3",
+    "0-4",
+    "0-5",
+    "0-6"
+   ],
+   "details": "The TiO6 octahedron of the rutile pigment."
+  },
+  {
+   "identifier": "p4",
+   "bondOrders": {},
+   "name": "Phosphorus tetrahedron",
+   "formula": "P4",
+   "geometry": "tetrahedron4",
+   "atoms": [
+    "P",
+    "P",
+    "P",
+    "P"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2",
+    "0-3",
+    "0-1",
+    "1-2",
+    "1-3",
+    "2-3"
+   ],
+   "details": "White phosphorus is a P4 tetrahedron of strained bonds."
+  },
+  {
+   "identifier": "s8",
+   "bondOrders": {},
+   "name": "Sulphur crown",
+   "formula": "S8",
+   "geometry": "ring",
+   "atoms": [
+    "S",
+    "S",
+    "S",
+    "S",
+    "S",
+    "S",
+    "S",
+    "S"
+   ],
+   "bonds": [
+    "0-1",
+    "1-2",
+    "2-3",
+    "3-4",
+    "4-5",
+    "5-6",
+    "6-7",
+    "7-0"
+   ],
+   "details": "Orthorhombic sulphur is a puckered S8 crown."
+  },
+  {
+   "identifier": "benzene",
+   "bondOrders": {
+    "1": 2,
+    "3": 2,
+    "5": 2
+   },
+   "name": "Benzene",
+   "formula": "C6H6",
+   "geometry": "ring-with-h",
+   "atoms": [
+    "C",
+    "C",
+    "C",
+    "C",
+    "C",
+    "C",
+    "H",
+    "H",
+    "H",
+    "H",
+    "H",
+    "H"
+   ],
+   "bonds": [
+    "0-1",
+    "1-2",
+    "2-3",
+    "3-4",
+    "4-5",
+    "5-0",
+    "0-6",
+    "1-7",
+    "2-8",
+    "3-9",
+    "4-10",
+    "5-11"
+   ],
+   "details": "A perfect hexagon of delocalised pi electrons."
+  },
+  {
+   "identifier": "h2",
+   "bondOrders": {},
+   "name": "Hydrogen",
+   "formula": "H2",
+   "geometry": "diatomic",
+   "atoms": [
+    "H",
+    "H"
+   ],
+   "bonds": [
+    "0-1"
+   ],
+   "details": "The simplest molecule, with a 436 kJ/mol bond."
+  },
+  {
+   "identifier": "o2",
+   "bondOrders": {
+    "0": 2
+   },
+   "name": "Oxygen",
+   "formula": "O2",
+   "geometry": "diatomic",
+   "atoms": [
+    "O",
+    "O"
+   ],
+   "bonds": [
+    "0-1"
+   ],
+   "details": "The double-bonded molecule of the air."
+  },
+  {
+   "identifier": "n2",
+   "bondOrders": {
+    "0": 3
+   },
+   "name": "Nitrogen",
+   "formula": "N2",
+   "geometry": "diatomic",
+   "atoms": [
+    "N",
+    "N"
+   ],
+   "bonds": [
+    "0-1"
+   ],
+   "details": "A triple bond that makes the atmosphere inert."
+  },
+  {
+   "identifier": "f2",
+   "bondOrders": {},
+   "name": "Fluorine",
+   "formula": "F2",
+   "geometry": "diatomic",
+   "atoms": [
+    "F",
+    "F"
+   ],
+   "bonds": [
+    "0-1"
+   ],
+   "details": "The most reactive diatomic molecule."
+  },
+  {
+   "identifier": "cl2",
+   "bondOrders": {},
+   "name": "Chlorine",
+   "formula": "Cl2",
+   "geometry": "diatomic",
+   "atoms": [
+    "Cl",
+    "Cl"
+   ],
+   "bonds": [
+    "0-1"
+   ],
+   "details": "A pale yellow diatomic gas."
+  },
+  {
+   "identifier": "hcl",
+   "bondOrders": {},
+   "name": "Hydrogen chloride",
+   "formula": "HCl",
+   "geometry": "diatomic",
+   "atoms": [
+    "H",
+    "Cl"
+   ],
+   "bonds": [
+    "0-1"
+   ],
+   "details": "A diatomic acid that dissolves in water."
+  },
+  {
+   "identifier": "co2",
+   "bondOrders": {
+    "0": 2,
+    "1": 2
+   },
+   "name": "Carbon dioxide",
+   "formula": "CO2",
+   "geometry": "linear",
+   "atoms": [
+    "C",
+    "O",
+    "O"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2"
+   ],
+   "details": "A perfectly linear molecule that traps heat."
+  },
+  {
+   "identifier": "co",
+   "bondOrders": {
+    "0": 3
+   },
+   "name": "Carbon monoxide",
+   "formula": "CO",
+   "geometry": "diatomic",
+   "atoms": [
+    "C",
+    "O"
+   ],
+   "bonds": [
+    "0-1"
+   ],
+   "details": "A colourless, lethal gas with a triple bond."
+  },
+  {
+   "identifier": "hcn",
+   "bondOrders": {},
+   "name": "Hydrogen cyanide",
+   "formula": "HCN",
+   "geometry": "linear",
+   "atoms": [
+    "H",
+    "C",
+    "N"
+   ],
+   "bonds": [
+    "0-1",
+    "1-2"
+   ],
+   "details": "A linear, volatile molecule of almond odour."
+  },
+  {
+   "identifier": "p4o10",
+   "bondOrders": {},
+   "name": "Phosphorus pentoxide",
+   "formula": "P4O10",
+   "geometry": "tetrahedral",
+   "atoms": [
+    "P",
+    "O",
+    "O",
+    "O",
+    "O"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2",
+    "0-3",
+    "0-4"
+   ],
+   "details": "A tetrahedral phosphate cage in P4O10."
+  },
+  {
+   "identifier": "h2o2",
+   "bondOrders": {},
+   "name": "Hydrogen peroxide",
+   "formula": "H2O2",
+   "geometry": "explicit",
+   "atoms": [
+    "O",
+    "O",
+    "H",
+    "H"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2",
+    "1-3"
+   ],
+   "details": "A non-planar molecule with an O-O single bond."
+  },
+  {
+   "identifier": "naoh",
+   "bondOrders": {},
+   "name": "Sodium hydroxide",
+   "formula": "NaOH",
+   "geometry": "explicit",
+   "atoms": [
+    "Na",
+    "O",
+    "H"
+   ],
+   "bonds": [
+    "1-2"
+   ],
+   "details": "An ionic hydroxide with a polar O-H bond."
+  },
+  {
+   "identifier": "hno3",
+   "bondOrders": {
+    "1": 2
+   },
+   "name": "Nitric acid",
+   "formula": "HNO3",
+   "geometry": "explicit",
+   "atoms": [
+    "N",
+    "O",
+    "O",
+    "O",
+    "H"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2",
+    "0-3",
+    "3-4"
+   ],
+   "details": "A planar nitrate group with a hydroxyl."
+  },
+  {
+   "identifier": "h3po4",
+   "bondOrders": {
+    "1": 2
+   },
+   "name": "Phosphoric acid",
+   "formula": "H3PO4",
+   "geometry": "explicit",
+   "atoms": [
+    "P",
+    "O",
+    "O",
+    "O",
+    "O",
+    "H",
+    "H",
+    "H"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2",
+    "0-3",
+    "0-4",
+    "1-5",
+    "2-6",
+    "3-7"
+   ],
+   "details": "A tetrahedral phosphate with three acidic hydrogens."
+  },
+  {
+   "identifier": "ch3oh",
+   "bondOrders": {},
+   "name": "Methanol",
+   "formula": "CH3OH",
+   "geometry": "explicit",
+   "atoms": [
+    "C",
+    "O",
+    "H",
+    "H",
+    "H",
+    "H"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2",
+    "0-3",
+    "0-4",
+    "1-5"
+   ],
+   "details": "A polar solvent with a hydrogen-bond donor."
+  },
+  {
+   "identifier": "ch2o",
+   "bondOrders": {
+    "2": 2
+   },
+   "name": "Formaldehyde",
+   "formula": "CH2O",
+   "geometry": "planar-trigonal",
+   "atoms": [
+    "C",
+    "H",
+    "H",
+    "O"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2",
+    "0-3"
+   ],
+   "details": "A planar carbonyl compound, the simplest aldehyde."
+  },
+  {
+   "identifier": "c2h4",
+   "bondOrders": {
+    "0": 2
+   },
+   "name": "Ethene",
+   "formula": "C2H4",
+   "geometry": "explicit",
+   "atoms": [
+    "C",
+    "C",
+    "H",
+    "H",
+    "H",
+    "H"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2",
+    "0-3",
+    "1-4",
+    "1-5"
+   ],
+   "details": "A planar double-bonded molecule."
+  },
+  {
+   "identifier": "c2h6",
+   "bondOrders": {},
+   "name": "Ethane",
+   "formula": "C2H6",
+   "geometry": "explicit",
+   "atoms": [
+    "C",
+    "C",
+    "H",
+    "H",
+    "H",
+    "H",
+    "H",
+    "H"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2",
+    "0-3",
+    "0-4",
+    "1-5",
+    "1-6",
+    "1-7"
+   ],
+   "details": "A saturated hydrocarbon with a free-rotating C-C bond."
+  },
+  {
+   "identifier": "caco3",
+   "bondOrders": {},
+   "name": "Calcium carbonate",
+   "formula": "CaCO3",
+   "geometry": "explicit",
+   "atoms": [
+    "Ca",
+    "C",
+    "O",
+    "O",
+    "O"
+   ],
+   "bonds": [
+    "1-2",
+    "1-3",
+    "1-4"
+   ],
+   "details": "A trigonal planar carbonate group with a calcium ion."
+  },
+  {
+   "identifier": "baso4",
+   "bondOrders": {},
+   "name": "Barium sulphate",
+   "formula": "BaSO4",
+   "geometry": "explicit",
+   "atoms": [
+    "Ba",
+    "S",
+    "O",
+    "O",
+    "O",
+    "O"
+   ],
+   "bonds": [
+    "1-2",
+    "1-3",
+    "1-4",
+    "1-5"
+   ],
+   "details": "The 'barium meal' used for X-ray imaging."
+  },
+  {
+   "identifier": "kmno4",
+   "bondOrders": {},
+   "name": "Potassium permanganate",
+   "formula": "KMnO4",
+   "geometry": "explicit",
+   "atoms": [
+    "K",
+    "Mn",
+    "O",
+    "O",
+    "O",
+    "O"
+   ],
+   "bonds": [
+    "1-2",
+    "1-3",
+    "1-4",
+    "1-5"
+   ],
+   "details": "A tetrahedral permanganate ion and a strong oxidiser."
+  },
+  {
+   "identifier": "cuso4",
+   "bondOrders": {},
+   "name": "Copper(II) sulphate",
+   "formula": "CuSO4",
+   "geometry": "explicit",
+   "atoms": [
+    "Cu",
+    "S",
+    "O",
+    "O",
+    "O",
+    "O"
+   ],
+   "bonds": [
+    "1-2",
+    "1-3",
+    "1-4",
+    "1-5"
+   ],
+   "details": "Blue vitriol, with a distorted sulfate group."
+  },
+  {
+   "identifier": "feo",
+   "bondOrders": {},
+   "name": "Iron(II) oxide",
+   "formula": "FeO",
+   "geometry": "octahedral",
+   "atoms": [
+    "Fe",
+    "O",
+    "O",
+    "O",
+    "O",
+    "O",
+    "O"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2",
+    "0-3",
+    "0-4",
+    "0-5",
+    "0-6"
+   ],
+   "details": "A rock-salt coordination environment."
+  },
+  {
+   "identifier": "fe2o3",
+   "bondOrders": {},
+   "name": "Iron(III) oxide",
+   "formula": "Fe2O3",
+   "geometry": "explicit",
+   "atoms": [
+    "Fe",
+    "Fe",
+    "O",
+    "O",
+    "O"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2",
+    "0-3",
+    "1-4"
+   ],
+   "details": "Rust, with iron(III) centres in an oxygen lattice."
+  },
+  {
+   "identifier": "fe3o4",
+   "bondOrders": {},
+   "name": "Iron(II,III) oxide",
+   "formula": "Fe3O4",
+   "geometry": "explicit",
+   "atoms": [
+    "Fe",
+    "Fe",
+    "Fe",
+    "O",
+    "O",
+    "O",
+    "O"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2",
+    "0-3",
+    "1-4",
+    "1-5",
+    "2-6"
+   ],
+   "details": "Magnetite, the spinel that is naturally magnetised."
+  },
+  {
+   "identifier": "as2o3",
+   "bondOrders": {},
+   "name": "Arsenic(III) oxide",
+   "formula": "As2O3",
+   "geometry": "explicit",
+   "atoms": [
+    "As",
+    "As",
+    "O",
+    "O",
+    "O"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2",
+    "0-3",
+    "1-4"
+   ],
+   "details": "A cage-like oxide used as a wood preservative."
+  },
+  {
+   "identifier": "sb2o3",
+   "bondOrders": {},
+   "name": "Antimony(III) oxide",
+   "formula": "Sb2O3",
+   "geometry": "explicit",
+   "atoms": [
+    "Sb",
+    "Sb",
+    "O",
+    "O",
+    "O"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2",
+    "0-3",
+    "1-4"
+   ],
+   "details": "A flame-retardant antimony oxide."
+  },
+  {
+   "identifier": "bi2o3",
+   "bondOrders": {},
+   "name": "Bismuth(III) oxide",
+   "formula": "Bi2O3",
+   "geometry": "explicit",
+   "atoms": [
+    "Bi",
+    "Bi",
+    "O",
+    "O",
+    "O"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2",
+    "0-3",
+    "1-4"
+   ],
+   "details": "A bismuth oxide used in pigments and ceramics."
+  },
+  {
+   "identifier": "v2o5",
+   "bondOrders": {},
+   "name": "Vanadium pentoxide",
+   "formula": "V2O5",
+   "geometry": "explicit",
+   "atoms": [
+    "V",
+    "V",
+    "O",
+    "O",
+    "O",
+    "O",
+    "O"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2",
+    "0-3",
+    "0-4",
+    "1-5",
+    "1-6"
+   ],
+   "details": "The catalyst in the contact process for sulphuric acid."
+  },
+  {
+   "identifier": "cr2o3",
+   "bondOrders": {},
+   "name": "Chromium(III) oxide",
+   "formula": "Cr2O3",
+   "geometry": "explicit",
+   "atoms": [
+    "Cr",
+    "Cr",
+    "O",
+    "O",
+    "O"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2",
+    "0-3",
+    "1-4"
+   ],
+   "details": "The green pigment known as chrome green."
+  },
+  {
+   "identifier": "tc2o7",
+   "bondOrders": {},
+   "name": "Technetium(VII) oxide",
+   "formula": "Tc2O7",
+   "geometry": "explicit",
+   "atoms": [
+    "Tc",
+    "Tc",
+    "O",
+    "O",
+    "O",
+    "O",
+    "O",
+    "O"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2",
+    "0-3",
+    "0-4",
+    "0-5",
+    "1-6",
+    "1-7"
+   ],
+   "details": "A volatile technetium oxide."
+  },
+  {
+   "identifier": "re2o7",
+   "bondOrders": {},
+   "name": "Rhenium(VII) oxide",
+   "formula": "Re2O7",
+   "geometry": "explicit",
+   "atoms": [
+    "Re",
+    "Re",
+    "O",
+    "O",
+    "O",
+    "O",
+    "O",
+    "O"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2",
+    "0-3",
+    "0-4",
+    "0-5",
+    "1-6",
+    "1-7"
+   ],
+   "details": "The oxide used in rhenium-platinum reforming catalysts."
+  },
+  {
+   "identifier": "moo3",
+   "bondOrders": {},
+   "name": "Molybdenum trioxide",
+   "formula": "MoO3",
+   "geometry": "explicit",
+   "atoms": [
+    "Mo",
+    "O",
+    "O",
+    "O"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2",
+    "0-3"
+   ],
+   "details": "A layered oxide used in hydrodesulphurisation."
+  },
+  {
+   "identifier": "woo3",
+   "bondOrders": {},
+   "name": "Tungsten trioxide",
+   "formula": "WO3",
+   "geometry": "explicit",
+   "atoms": [
+    "W",
+    "O",
+    "O",
+    "O"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2",
+    "0-3"
+   ],
+   "details": "A yellow oxide that colours tungsten bronzes."
+  },
+  {
+   "identifier": "pa2o5",
+   "bondOrders": {},
+   "name": "Protactinium(V) oxide",
+   "formula": "Pa2O5",
+   "geometry": "explicit",
+   "atoms": [
+    "Pa",
+    "Pa",
+    "O",
+    "O",
+    "O",
+    "O",
+    "O"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2",
+    "0-3",
+    "0-4",
+    "1-5",
+    "1-6"
+   ],
+   "details": "A dense actinide oxide."
+  },
+  {
+   "identifier": "ceo2",
+   "bondOrders": {},
+   "name": "Cerium dioxide",
+   "formula": "CeO2",
+   "geometry": "explicit",
+   "atoms": [
+    "Ce",
+    "O",
+    "O"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2"
+   ],
+   "details": "The fluorite-structured catalyst ceramic."
+  },
+  {
+   "identifier": "tho2",
+   "bondOrders": {},
+   "name": "Thorium dioxide",
+   "formula": "ThO2",
+   "geometry": "explicit",
+   "atoms": [
+    "Th",
+    "O",
+    "O"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2"
+   ],
+   "details": "A refractory ceramic used in nuclear fuel pellets."
+  },
+  {
+   "identifier": "uo2",
+   "bondOrders": {},
+   "name": "Uranium dioxide",
+   "formula": "UO2",
+   "geometry": "explicit",
+   "atoms": [
+    "U",
+    "O",
+    "O"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2"
+   ],
+   "details": "The nuclear fuel ceramic of every reactor."
+  },
+  {
+   "identifier": "npo2",
+   "bondOrders": {},
+   "name": "Neptunium dioxide",
+   "formula": "NpO2",
+   "geometry": "explicit",
+   "atoms": [
+    "Np",
+    "O",
+    "O"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2"
+   ],
+   "details": "A neptunium ceramic studied for actinide waste forms."
+  },
+  {
+   "identifier": "puo2",
+   "bondOrders": {},
+   "name": "Plutonium dioxide",
+   "formula": "PuO2",
+   "geometry": "explicit",
+   "atoms": [
+    "Pu",
+    "O",
+    "O"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2"
+   ],
+   "details": "The most-studied plutonium fuel ceramic."
+  },
+  {
+   "identifier": "sb2o3_solid",
+   "bondOrders": {},
+   "name": "Antimony(III) oxide solid",
+   "formula": "Sb2O3",
+   "geometry": "explicit",
+   "atoms": [
+    "Sb",
+    "Sb",
+    "O",
+    "O",
+    "O"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2",
+    "0-3",
+    "1-4"
+   ],
+   "details": "A flame-retardant antimony oxide."
+  },
+  {
+   "identifier": "p4_solid",
+   "bondOrders": {},
+   "name": "Phosphorus tetrahedron solid",
+   "formula": "P4",
+   "geometry": "tetrahedron4",
+   "atoms": [
+    "P",
+    "P",
+    "P",
+    "P"
+   ],
+   "bonds": [
+    "0-1",
+    "0-2",
+    "0-3",
+    "0-1",
+    "1-2",
+    "1-3",
+    "2-3"
+   ],
+   "details": "White phosphorus is a P4 tetrahedron of strained bonds."
+  }
+ ],
+ "explicitCoordinates": {
+  "h2so4": [
+   [
+    0.0,
+    0.0,
+    0.0
+   ],
+   [
+    1.43,
+    0.0,
+    0.0
+   ],
+   [
+    -0.48,
+    1.38,
+    0.0
+   ],
+   [
+    -0.48,
+    -0.69,
+    1.19
+   ],
+   [
+    -0.48,
+    -0.69,
+    -1.19
+   ],
+   [
+    -0.1,
+    -1.3,
+    1.9
+   ],
+   [
+    -0.1,
+    -1.3,
+    -1.9
+   ]
+  ],
+  "c2h4": [
+   [
+    -0.67,
+    0.0,
+    0.0
+   ],
+   [
+    0.67,
+    0.0,
+    0.0
+   ],
+   [
+    -1.23,
+    0.92,
+    0.0
+   ],
+   [
+    -1.23,
+    -0.92,
+    0.0
+   ],
+   [
+    1.23,
+    0.92,
+    0.0
+   ],
+   [
+    1.23,
+    -0.92,
+    0.0
+   ]
+  ],
+  "h2o2": [
+   [
+    -0.75,
+    0.0,
+    0.0
+   ],
+   [
+    0.75,
+    0.0,
+    0.0
+   ],
+   [
+    -1.35,
+    -0.85,
+    0.0
+   ],
+   [
+    1.35,
+    -0.85,
+    0.0
+   ]
+  ],
+  "naoh": [
+   [
+    0.0,
+    0.0,
+    0.0
+   ],
+   [
+    1.43,
+    0.0,
+    0.0
+   ],
+   [
+    2.39,
+    0.0,
+    0.0
+   ]
+  ],
+  "hno3": [
+   [
+    0.0,
+    0.0,
+    0.0
+   ],
+   [
+    -0.6,
+    1.04,
+    0.0
+   ],
+   [
+    -0.6,
+    -0.52,
+    0.9
+   ],
+   [
+    1.2,
+    0.0,
+    0.0
+   ],
+   [
+    2.19,
+    0.0,
+    0.0
+   ]
+  ],
+  "h3po4": [
+   [
+    0.0,
+    0.0,
+    0.0
+   ],
+   [
+    1.43,
+    0.0,
+    0.0
+   ],
+   [
+    -0.72,
+    1.24,
+    0.0
+   ],
+   [
+    -0.72,
+    -0.62,
+    1.07
+   ],
+   [
+    0.0,
+    0.0,
+    -1.48
+   ],
+   [
+    2.35,
+    0.0,
+    0.0
+   ],
+   [
+    -1.18,
+    2.04,
+    0.0
+   ],
+   [
+    -1.18,
+    -1.02,
+    1.76
+   ]
+  ],
+  "ch3oh": [
+   [
+    0.0,
+    0.0,
+    0.0
+   ],
+   [
+    1.43,
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    1.03,
+    0.0
+   ],
+   [
+    -0.51,
+    -0.51,
+    0.89
+   ],
+   [
+    -0.51,
+    -0.51,
+    -0.89
+   ],
+   [
+    2.39,
+    0.0,
+    0.0
+   ]
+  ],
+  "c2h6": [
+   [
+    0.0,
+    0.0,
+    0.0
+   ],
+   [
+    1.53,
+    0.0,
+    0.0
+   ],
+   [
+    -0.52,
+    1.02,
+    0.0
+   ],
+   [
+    -0.52,
+    -0.51,
+    0.89
+   ],
+   [
+    -0.52,
+    -0.51,
+    -0.89
+   ],
+   [
+    2.05,
+    0.52,
+    0.89
+   ],
+   [
+    2.05,
+    -0.51,
+    -0.89
+   ],
+   [
+    2.05,
+    0.51,
+    -0.89
+   ]
+  ],
+  "caco3": [
+   [
+    0.0,
+    0.0,
+    1.8
+   ],
+   [
+    0.0,
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    1.28,
+    -0.55
+   ],
+   [
+    1.11,
+    -0.64,
+    -0.55
+   ],
+   [
+    -1.11,
+    -0.64,
+    -0.55
+   ]
+  ],
+  "baso4": [
+   [
+    0.0,
+    0.0,
+    2.1
+   ],
+   [
+    0.0,
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    1.49,
+    -0.35
+   ],
+   [
+    1.29,
+    -0.74,
+    -0.35
+   ],
+   [
+    -1.29,
+    -0.74,
+    -0.35
+   ],
+   [
+    0.0,
+    0.0,
+    -1.2
+   ]
+  ],
+  "kmno4": [
+   [
+    0.0,
+    0.0,
+    2.4
+   ],
+   [
+    0.0,
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    1.5,
+    0.0
+   ],
+   [
+    1.3,
+    -0.75,
+    0.0
+   ],
+   [
+    -1.3,
+    -0.75,
+    0.0
+   ],
+   [
+    0.0,
+    0.0,
+    -1.5
+   ]
+  ],
+  "cuso4": [
+   [
+    0.0,
+    0.0,
+    2.4
+   ],
+   [
+    0.0,
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    1.49,
+    0.0
+   ],
+   [
+    1.29,
+    -0.74,
+    0.0
+   ],
+   [
+    -1.29,
+    -0.74,
+    0.0
+   ],
+   [
+    0.0,
+    0.0,
+    -1.2
+   ]
+  ],
+  "fe2o3": [
+   [
+    -0.6,
+    0.0,
+    0.0
+   ],
+   [
+    0.6,
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    1.4,
+    0.0
+   ],
+   [
+    0.0,
+    -0.7,
+    1.21
+   ],
+   [
+    0.0,
+    -0.7,
+    -1.21
+   ]
+  ],
+  "fe3o4": [
+   [
+    -1.1,
+    0.0,
+    0.0
+   ],
+   [
+    0.55,
+    0.95,
+    0.0
+   ],
+   [
+    0.55,
+    -0.48,
+    0.82
+   ],
+   [
+    0.0,
+    0.0,
+    1.45
+   ],
+   [
+    0.0,
+    1.6,
+    -0.7
+   ],
+   [
+    1.35,
+    -0.8,
+    0.0
+   ],
+   [
+    -0.68,
+    -1.0,
+    1.1
+   ]
+  ],
+  "as2o3": [
+   [
+    -0.7,
+    0.0,
+    0.0
+   ],
+   [
+    0.7,
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    1.6,
+    0.0
+   ],
+   [
+    0.0,
+    -0.8,
+    1.39
+   ],
+   [
+    0.0,
+    -0.8,
+    -1.39
+   ]
+  ],
+  "sb2o3": [
+   [
+    -0.75,
+    0.0,
+    0.0
+   ],
+   [
+    0.75,
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    1.7,
+    0.0
+   ],
+   [
+    0.0,
+    -0.85,
+    1.47
+   ],
+   [
+    0.0,
+    -0.85,
+    -1.47
+   ]
+  ],
+  "bi2o3": [
+   [
+    -0.8,
+    0.0,
+    0.0
+   ],
+   [
+    0.8,
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    1.8,
+    0.0
+   ],
+   [
+    0.0,
+    -0.9,
+    1.56
+   ],
+   [
+    0.0,
+    -0.9,
+    -1.56
+   ]
+  ],
+  "v2o5": [
+   [
+    -1.2,
+    0.0,
+    0.0
+   ],
+   [
+    1.2,
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    1.6,
+    0.0
+   ],
+   [
+    -1.2,
+    -0.8,
+    1.1
+   ],
+   [
+    -1.2,
+    -0.8,
+    -1.1
+   ],
+   [
+    1.2,
+    0.8,
+    1.1
+   ],
+   [
+    1.2,
+    0.8,
+    -1.1
+   ]
+  ],
+  "cr2o3": [
+   [
+    -0.8,
+    0.0,
+    0.0
+   ],
+   [
+    0.8,
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    1.8,
+    0.0
+   ],
+   [
+    0.0,
+    -0.9,
+    1.56
+   ],
+   [
+    0.0,
+    -0.9,
+    -1.56
+   ]
+  ],
+  "tc2o7": [
+   [
+    -1.2,
+    0.0,
+    0.0
+   ],
+   [
+    1.2,
+    0.0,
+    0.0
+   ],
+   [
+    -2.05,
+    0.85,
+    0.0
+   ],
+   [
+    -2.05,
+    -0.85,
+    0.0
+   ],
+   [
+    -0.35,
+    0.0,
+    1.1
+   ],
+   [
+    -0.35,
+    0.0,
+    -1.1
+   ],
+   [
+    1.85,
+    0.8,
+    0.0
+   ],
+   [
+    1.85,
+    -0.8,
+    0.0
+   ]
+  ],
+  "re2o7": [
+   [
+    -1.2,
+    0.0,
+    0.0
+   ],
+   [
+    1.2,
+    0.0,
+    0.0
+   ],
+   [
+    -2.05,
+    0.85,
+    0.0
+   ],
+   [
+    -2.05,
+    -0.85,
+    0.0
+   ],
+   [
+    -0.35,
+    0.0,
+    1.1
+   ],
+   [
+    -0.35,
+    0.0,
+    -1.1
+   ],
+   [
+    1.85,
+    0.8,
+    0.0
+   ],
+   [
+    1.85,
+    -0.8,
+    0.0
+   ]
+  ],
+  "moo3": [
+   [
+    0.0,
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    1.8,
+    0.0
+   ],
+   [
+    1.56,
+    -0.9,
+    0.0
+   ],
+   [
+    -1.56,
+    -0.9,
+    0.0
+   ]
+  ],
+  "woo3": [
+   [
+    0.0,
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    1.9,
+    0.0
+   ],
+   [
+    1.65,
+    -0.95,
+    0.0
+   ],
+   [
+    -1.65,
+    -0.95,
+    0.0
+   ]
+  ],
+  "pa2o5": [
+   [
+    -1.2,
+    0.0,
+    0.0
+   ],
+   [
+    1.2,
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    1.6,
+    0.0
+   ],
+   [
+    -1.2,
+    -0.8,
+    1.1
+   ],
+   [
+    -1.2,
+    -0.8,
+    -1.1
+   ],
+   [
+    1.2,
+    0.8,
+    1.1
+   ],
+   [
+    1.2,
+    0.8,
+    -1.1
+   ]
+  ],
+  "ceo2": [
+   [
+    0.0,
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    1.9,
+    0.0
+   ],
+   [
+    0.0,
+    -0.6,
+    1.74
+   ]
+  ],
+  "tho2": [
+   [
+    0.0,
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    2.0,
+    0.0
+   ],
+   [
+    0.0,
+    -0.6,
+    1.83
+   ]
+  ],
+  "uo2": [
+   [
+    0.0,
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    2.05,
+    0.0
+   ],
+   [
+    0.0,
+    -0.6,
+    1.87
+   ]
+  ],
+  "npo2": [
+   [
+    0.0,
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    2.02,
+    0.0
+   ],
+   [
+    0.0,
+    -0.6,
+    1.85
+   ]
+  ],
+  "puo2": [
+   [
+    0.0,
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    2.02,
+    0.0
+   ],
+   [
+    0.0,
+    -0.6,
+    1.85
+   ]
+  ]
+ },
+ "defaultCovalentRadii": {
+  "H": 31,
+  "He": 28
+ }
+}
