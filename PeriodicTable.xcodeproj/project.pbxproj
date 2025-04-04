@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3168CEEEE32222ED6487436C /* PTMoleculeLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 314318615EBB9A4AAF63E84E /* PTMoleculeLibrary.m */; };
+		39D320D73D4A974B785A0F2B /* PTPeriodicTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F324C3401B9E6E53AED360 /* PTPeriodicTableViewController.m */; };
+		4E27071A9A119EAD51785971 /* PTMolecule3DViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 325C90960C50C7495B30B013 /* PTMolecule3DViewController.m */; };
+		4EDBF484B6E9423A5E7668B6 /* PTElementCategories.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3B98EA0BB01D3D9F13153E /* PTElementCategories.m */; };
+		5C7D6A4DC02654D81D2C9B0D /* elements.json in Resources */ = {isa = PBXBuildFile; fileRef = 9D81246F4B7CAEFC9671E8DB /* elements.json */; };
+		5EE666A4E4AB9D62BD18B0F1 /* PTElementStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 5904490F9612F6DE0F4955FE /* PTElementStore.m */; };
+		6614CA54C3A31D230F1FBA22 /* PTCameraSceneView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58DF7FC277F06DFFA80D923F /* PTCameraSceneView.m */; };
+		7390B88B5B41783343352EEE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 77EFB50193ADC87AC43EBB47 /* main.m */; };
+		8AD11F6A063C7C73B2F35226 /* PTDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA66C6D23D2762CCAA02CBB /* PTDetailViewController.m */; };
+		902EE0BD1156BA04A734EFE0 /* PTElectronShellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 97EED3F8A7AE82BFBCE2AC20 /* PTElectronShellView.m */; };
+		925051C91ADA90956A0AA81A /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C88041E0478F623D0A782AE /* AppKit.framework */; };
+		9E69CEA59912C0220AFB5D89 /* PTPeriodicTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7029D444471F7A53723770 /* PTPeriodicTableView.m */; };
+		BF106F4C2C26A08563D115AD /* PTMolecule.m in Sources */ = {isa = PBXBuildFile; fileRef = E49EA72E15BB2536F29D0899 /* PTMolecule.m */; };
+		C5CFF1C756498C27A00955A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D325A2861026FD8AB37B330 /* AppDelegate.m */; };
+		C8836EBE94EDDD9610A4BB9C /* PTElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 332FD1CB25F7AED8F7E18CB8 /* PTElement.m */; };
+		D8C60A65574F22467C513E5B /* PTMoleculeSceneBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A5906CF1C0A67DA49908D7 /* PTMoleculeSceneBuilder.m */; };
+		F5E3F6C8ABADA2D1EF30EE0B /* NSColor+PTColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CDA492ABBD3C784F017D70 /* NSColor+PTColor.m */; };
+		FD6B09DADC9181A3B758B86A /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B81753F60D35B586F0BEB8A /* SceneKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		015B96CF72DC0F573DE90319 /* PTPeriodicTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PTPeriodicTableView.h; sourceTree = "<group>"; };
+		057340804D498AF449324193 /* PTMoleculeLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PTMoleculeLibrary.h; sourceTree = "<group>"; };
+		05F324C3401B9E6E53AED360 /* PTPeriodicTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PTPeriodicTableViewController.m; sourceTree = "<group>"; };
+		1C88041E0478F623D0A782AE /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		1DD2656021913B05EBA86C94 /* PeriodicTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeriodicTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F56997D66745C88815C0A72 /* NSColor+PTColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSColor+PTColor.h"; sourceTree = "<group>"; };
+		263DE60CDEB28EBD78D16C3C /* PTDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PTDetailViewController.h; sourceTree = "<group>"; };
+		2EA66C6D23D2762CCAA02CBB /* PTDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PTDetailViewController.m; sourceTree = "<group>"; };
+		314318615EBB9A4AAF63E84E /* PTMoleculeLibrary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PTMoleculeLibrary.m; sourceTree = "<group>"; };
+		325C90960C50C7495B30B013 /* PTMolecule3DViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PTMolecule3DViewController.m; sourceTree = "<group>"; };
+		332FD1CB25F7AED8F7E18CB8 /* PTElement.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PTElement.m; sourceTree = "<group>"; };
+		383C82E98A894D0AA87A0435 /* PTCameraSceneView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PTCameraSceneView.h; sourceTree = "<group>"; };
+		3EBDF6DDE7BD5C3C88AFD94A /* PTPeriodicTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PTPeriodicTableViewController.h; sourceTree = "<group>"; };
+		3F3B98EA0BB01D3D9F13153E /* PTElementCategories.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PTElementCategories.m; sourceTree = "<group>"; };
+		58DF7FC277F06DFFA80D923F /* PTCameraSceneView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PTCameraSceneView.m; sourceTree = "<group>"; };
+		5904490F9612F6DE0F4955FE /* PTElementStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PTElementStore.m; sourceTree = "<group>"; };
+		64CFF867B4537D0C7D1C9F7F /* PTMoleculeSceneBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PTMoleculeSceneBuilder.h; sourceTree = "<group>"; };
+		69541109B03157B4C17CDA98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		6B81753F60D35B586F0BEB8A /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = System/Library/Frameworks/SceneKit.framework; sourceTree = SDKROOT; };
+		77EFB50193ADC87AC43EBB47 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		78A5906CF1C0A67DA49908D7 /* PTMoleculeSceneBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PTMoleculeSceneBuilder.m; sourceTree = "<group>"; };
+		7C22EE53673109E8EADFC6B2 /* PTElementCategories.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PTElementCategories.h; sourceTree = "<group>"; };
+		87461C533AB6EF85CBE282CE /* PTMolecule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PTMolecule.h; sourceTree = "<group>"; };
+		90D93A4587E073DC194FF9C7 /* PTMolecule3DViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PTMolecule3DViewController.h; sourceTree = "<group>"; };
+		93CDA492ABBD3C784F017D70 /* NSColor+PTColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSColor+PTColor.m"; sourceTree = "<group>"; };
+		94F9F98519A97E24AFCC830F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		97EED3F8A7AE82BFBCE2AC20 /* PTElectronShellView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PTElectronShellView.m; sourceTree = "<group>"; };
+		9D325A2861026FD8AB37B330 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9D81246F4B7CAEFC9671E8DB /* elements.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = elements.json; sourceTree = "<group>"; };
+		9DB202773DA6A5780D0DBCCB /* PTElement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PTElement.h; sourceTree = "<group>"; };
+		B74C8F5611AEA714029160C4 /* PTElementStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PTElementStore.h; sourceTree = "<group>"; };
+		D5D412D3C096C5EB90A64548 /* PTGeometry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PTGeometry.h; sourceTree = "<group>"; };
+		E1504149362E2E4CD1B1E808 /* PTElectronShellView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PTElectronShellView.h; sourceTree = "<group>"; };
+		E49EA72E15BB2536F29D0899 /* PTMolecule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PTMolecule.m; sourceTree = "<group>"; };
+		FF7029D444471F7A53723770 /* PTPeriodicTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PTPeriodicTableView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C28CE602B54C3BEE4A8289C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD6B09DADC9181A3B758B86A /* SceneKit.framework in Frameworks */,
+				925051C91ADA90956A0AA81A /* AppKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24ADDD9F7BE4E321E8AED841 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DD2656021913B05EBA86C94 /* PeriodicTable.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42D8A54DF1BED212C3F6E109 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				94F9F98519A97E24AFCC830F /* AppDelegate.h */,
+				9D325A2861026FD8AB37B330 /* AppDelegate.m */,
+				69541109B03157B4C17CDA98 /* Info.plist */,
+				77EFB50193ADC87AC43EBB47 /* main.m */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		4FF36E7ABD2EB31962341D7E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				383C82E98A894D0AA87A0435 /* PTCameraSceneView.h */,
+				58DF7FC277F06DFFA80D923F /* PTCameraSceneView.m */,
+				E1504149362E2E4CD1B1E808 /* PTElectronShellView.h */,
+				97EED3F8A7AE82BFBCE2AC20 /* PTElectronShellView.m */,
+				64CFF867B4537D0C7D1C9F7F /* PTMoleculeSceneBuilder.h */,
+				78A5906CF1C0A67DA49908D7 /* PTMoleculeSceneBuilder.m */,
+				015B96CF72DC0F573DE90319 /* PTPeriodicTableView.h */,
+				FF7029D444471F7A53723770 /* PTPeriodicTableView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		73C5E7BA6763834B81D167F9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				263DE60CDEB28EBD78D16C3C /* PTDetailViewController.h */,
+				2EA66C6D23D2762CCAA02CBB /* PTDetailViewController.m */,
+				90D93A4587E073DC194FF9C7 /* PTMolecule3DViewController.h */,
+				325C90960C50C7495B30B013 /* PTMolecule3DViewController.m */,
+				3EBDF6DDE7BD5C3C88AFD94A /* PTPeriodicTableViewController.h */,
+				05F324C3401B9E6E53AED360 /* PTPeriodicTableViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A1DD0EE57C154611311CD888 = {
+			isa = PBXGroup;
+			children = (
+				D6CB1505A70E5920F3B95191 /* PeriodicTable */,
+				D6DF25E8BD8BA191AC797D24 /* Frameworks */,
+				24ADDD9F7BE4E321E8AED841 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BECA8616F51847CC7DD61CF3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9D81246F4B7CAEFC9671E8DB /* elements.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D6CB1505A70E5920F3B95191 /* PeriodicTable */ = {
+			isa = PBXGroup;
+			children = (
+				42D8A54DF1BED212C3F6E109 /* App */,
+				73C5E7BA6763834B81D167F9 /* Controllers */,
+				DE88B46323EF549B8445DC32 /* Model */,
+				BECA8616F51847CC7DD61CF3 /* Resources */,
+				E25A91E5FD948DA020512954 /* Support */,
+				4FF36E7ABD2EB31962341D7E /* Views */,
+			);
+			path = PeriodicTable;
+			sourceTree = "<group>";
+		};
+		D6DF25E8BD8BA191AC797D24 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C88041E0478F623D0A782AE /* AppKit.framework */,
+				6B81753F60D35B586F0BEB8A /* SceneKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE88B46323EF549B8445DC32 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9DB202773DA6A5780D0DBCCB /* PTElement.h */,
+				332FD1CB25F7AED8F7E18CB8 /* PTElement.m */,
+				7C22EE53673109E8EADFC6B2 /* PTElementCategories.h */,
+				3F3B98EA0BB01D3D9F13153E /* PTElementCategories.m */,
+				B74C8F5611AEA714029160C4 /* PTElementStore.h */,
+				5904490F9612F6DE0F4955FE /* PTElementStore.m */,
+				87461C533AB6EF85CBE282CE /* PTMolecule.h */,
+				E49EA72E15BB2536F29D0899 /* PTMolecule.m */,
+				057340804D498AF449324193 /* PTMoleculeLibrary.h */,
+				314318615EBB9A4AAF63E84E /* PTMoleculeLibrary.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E25A91E5FD948DA020512954 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				1F56997D66745C88815C0A72 /* NSColor+PTColor.h */,
+				93CDA492ABBD3C784F017D70 /* NSColor+PTColor.m */,
+				D5D412D3C096C5EB90A64548 /* PTGeometry.h */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAF7591B34FA485DAC920A89 /* PeriodicTable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69C78BA3BA132DBDEC6F1D41 /* Build configuration list for PBXNativeTarget "PeriodicTable" */;
+			buildPhases = (
+				F24CB7FB08A40D45B370125B /* Sources */,
+				A3EAE62D7C1BF3B108B6BD3A /* Resources */,
+				9C28CE602B54C3BEE4A8289C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PeriodicTable;
+			packageProductDependencies = (
+			);
+			productName = PeriodicTable;
+			productReference = 1DD2656021913B05EBA86C94 /* PeriodicTable.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BF9EECAE3C096D82FA25123 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = 37EC6D5364CFF6CB436533A6 /* Build configuration list for PBXProject "PeriodicTable" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = A1DD0EE57C154611311CD888;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 24ADDD9F7BE4E321E8AED841 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAF7591B34FA485DAC920A89 /* PeriodicTable */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3EAE62D7C1BF3B108B6BD3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C7D6A4DC02654D81D2C9B0D /* elements.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F24CB7FB08A40D45B370125B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5CFF1C756498C27A00955A2 /* AppDelegate.m in Sources */,
+				F5E3F6C8ABADA2D1EF30EE0B /* NSColor+PTColor.m in Sources */,
+				6614CA54C3A31D230F1FBA22 /* PTCameraSceneView.m in Sources */,
+				8AD11F6A063C7C73B2F35226 /* PTDetailViewController.m in Sources */,
+				902EE0BD1156BA04A734EFE0 /* PTElectronShellView.m in Sources */,
+				C8836EBE94EDDD9610A4BB9C /* PTElement.m in Sources */,
+				4EDBF484B6E9423A5E7668B6 /* PTElementCategories.m in Sources */,
+				5EE666A4E4AB9D62BD18B0F1 /* PTElementStore.m in Sources */,
+				BF106F4C2C26A08563D115AD /* PTMolecule.m in Sources */,
+				4E27071A9A119EAD51785971 /* PTMolecule3DViewController.m in Sources */,
+				3168CEEEE32222ED6487436C /* PTMoleculeLibrary.m in Sources */,
+				D8C60A65574F22467C513E5B /* PTMoleculeSceneBuilder.m in Sources */,
+				9E69CEA59912C0220AFB5D89 /* PTPeriodicTableView.m in Sources */,
+				39D320D73D4A974B785A0F2B /* PTPeriodicTableViewController.m in Sources */,
+				7390B88B5B41783343352EEE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		45FFD1084391DBB46520EA26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = PeriodicTable/App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sid.periodictable;
+				PRODUCT_NAME = PeriodicTable;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		59A3988E421129D09A3512B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_HARDENED_RUNTIME = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		DED99D67FBBC151DCA24F8C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_HARDENED_RUNTIME = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F6EA78DCBE0E6C4441B93538 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = PeriodicTable/App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sid.periodictable;
+				PRODUCT_NAME = PeriodicTable;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37EC6D5364CFF6CB436533A6 /* Build configuration list for PBXProject "PeriodicTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DED99D67FBBC151DCA24F8C2 /* Debug */,
+				59A3988E421129D09A3512B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		69C78BA3BA132DBDEC6F1D41 /* Build configuration list for PBXNativeTarget "PeriodicTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6EA78DCBE0E6C4441B93538 /* Debug */,
+				45FFD1084391DBB46520EA26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6BF9EECAE3C096D82FA25123 /* Project object */;
+}

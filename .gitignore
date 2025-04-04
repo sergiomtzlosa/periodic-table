@@ -18,10 +18,6 @@
 Icon?
 AGENTS.md
 
-# ── Xcode ────────────────────────────────────────────────────────────────────
-# The whole project is generated — never commit it.
-*.xcodeproj/
-*.xcworkspace/
 
 # Per-user Xcode state
 xcuserdata/
