@@ -7,6 +7,8 @@ animated model of the atom itself — turns slowly below it.
 The app is written in Objective-C with AppKit and SceneKit, uses no storyboards, and works
 entirely offline.
 
+![Periodic table preview](preview.png)
+
 ## The periodic table
 
 The main window shows the complete IUPAC table: 18 groups across, 7 periods down, with the
