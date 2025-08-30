@@ -160,6 +160,22 @@ the data, edit the script and run:
 python3 tools/generate_elements.py
 ```
 
+## App icon
+
+The Dock and Finder icon is `PeriodicTable/Resources/AppIcon.icns`, declared as `CFBundleIconFile`
+in `Info.plist`. It is generated from a small AppKit/Core Graphics renderer:
+
+```bash
+xcrun swift tools/generate_icon.swift
+```
+
+The script draws the artwork with vectors at every required size, writes the `.iconset` into
+`build/`, and calls `iconutil` to produce the `.icns`. The icon is an element tile for carbon
+(`6`, `C`, `CARBON`) with three glowing electron orbits and a faint periodic-table mosaic in the
+category palette. The artwork is full-bleed and fully opaque so macOS 26+ masks it to the system
+squircle instead of placing it on a default light plate; the 16 px rendition drops the card and
+orbits and keeps a single bold `C` for legibility.
+
 ## Project layout
 
 ```
@@ -168,7 +184,8 @@ periodic-table/
 ├── AGENTS.md                     Detailed development plan and design rationale
 ├── project.yml                   XcodeGen specification
 ├── tools/
-│   └── generate_elements.py      Data source and JSON generator
+│   ├── generate_elements.py      Data source and JSON generator
+│   └── generate_icon.swift       App icon renderer (all .iconset sizes → .icns)
 └── PeriodicTable/
     ├── App/                      Entry point, window, split view, menus
     ├── Model/                    Elements, categories, molecules, JSON store
@@ -176,6 +193,7 @@ periodic-table/
     ├── Controllers/              Table, detail pane, 3-D pane
     ├── Support/                  Colour parsing and vector helpers
     └── Resources/
+        ├── AppIcon.icns          Dock / Finder icon
         └── elements.json         118 elements and 144 molecules
 ```
 

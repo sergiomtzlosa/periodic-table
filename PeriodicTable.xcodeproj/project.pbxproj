@@ -15,6 +15,7 @@
 		5EE666A4E4AB9D62BD18B0F1 /* PTElementStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 5904490F9612F6DE0F4955FE /* PTElementStore.m */; };
 		6614CA54C3A31D230F1FBA22 /* PTCameraSceneView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58DF7FC277F06DFFA80D923F /* PTCameraSceneView.m */; };
 		7390B88B5B41783343352EEE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 77EFB50193ADC87AC43EBB47 /* main.m */; };
+		81B111A67AFDAA4DEF5401EC /* AppIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 2E5DF0AB604352AA32A13B32 /* AppIcon.icns */; };
 		8AD11F6A063C7C73B2F35226 /* PTDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA66C6D23D2762CCAA02CBB /* PTDetailViewController.m */; };
 		902EE0BD1156BA04A734EFE0 /* PTElectronShellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 97EED3F8A7AE82BFBCE2AC20 /* PTElectronShellView.m */; };
 		925051C91ADA90956A0AA81A /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C88041E0478F623D0A782AE /* AppKit.framework */; };
@@ -35,6 +36,7 @@
 		1DD2656021913B05EBA86C94 /* PeriodicTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeriodicTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F56997D66745C88815C0A72 /* NSColor+PTColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSColor+PTColor.h"; sourceTree = "<group>"; };
 		263DE60CDEB28EBD78D16C3C /* PTDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PTDetailViewController.h; sourceTree = "<group>"; };
+		2E5DF0AB604352AA32A13B32 /* AppIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = AppIcon.icns; sourceTree = "<group>"; };
 		2EA66C6D23D2762CCAA02CBB /* PTDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PTDetailViewController.m; sourceTree = "<group>"; };
 		314318615EBB9A4AAF63E84E /* PTMoleculeLibrary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PTMoleculeLibrary.m; sourceTree = "<group>"; };
 		325C90960C50C7495B30B013 /* PTMolecule3DViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PTMolecule3DViewController.m; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 		BECA8616F51847CC7DD61CF3 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				2E5DF0AB604352AA32A13B32 /* AppIcon.icns */,
 				9D81246F4B7CAEFC9671E8DB /* elements.json */,
 			);
 			path = Resources;
@@ -248,6 +251,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81B111A67AFDAA4DEF5401EC /* AppIcon.icns in Resources */,
 				5C7D6A4DC02654D81D2C9B0D /* elements.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
