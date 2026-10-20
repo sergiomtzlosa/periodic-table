@@ -1,0 +1,43 @@
+name: PeriodicTable
+options:
+  bundleIdPrefix: com.sid
+  deploymentTarget:
+    macOS: "13.0"
+  createIntermediateGroups: true
+  groupSortPosition: top
+  generateEmptyDirectories: false
+
+settings:
+  base:
+    CLANG_ENABLE_OBJC_ARC: YES
+    CLANG_ENABLE_MODULES: YES
+    CLANG_ENABLE_OBJC_WEAK: YES
+    GCC_C_LANGUAGE_STANDARD: gnu11
+    GCC_WARN_ABOUT_MISSING_PROTOTYPES: YES
+    GCC_WARN_UNDECLARED_SELECTOR: YES
+    GCC_NO_COMMON_BLOCKS: YES
+    CLANG_WARN_DOCUMENTATION_COMMENTS: NO
+    CODE_SIGN_IDENTITY: "-"
+    CODE_SIGNING_REQUIRED: NO
+    CODE_SIGNING_ALLOWED: NO
+    ENABLE_HARDENED_RUNTIME: NO
+    DEAD_CODE_STRIPPING: YES
+    ONLY_ACTIVE_ARCH: YES
+
+targets:
+  PeriodicTable:
+    type: application
+    platform: macOS
+    sources:
+      - path: PeriodicTable
+    settings:
+      base:
+        PRODUCT_NAME: PeriodicTable
+        PRODUCT_BUNDLE_IDENTIFIER: com.sid.periodictable
+        INFOPLIST_FILE: PeriodicTable/App/Info.plist
+        MACOSX_DEPLOYMENT_TARGET: "13.0"
+        COMBINE_HIDPI_IMAGES: YES
+        ENABLE_USER_SCRIPT_SANDBOXING: NO
+    dependencies:
+      - sdk: SceneKit.framework
+      - sdk: AppKit.framework
